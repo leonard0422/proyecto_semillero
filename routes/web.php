@@ -18,7 +18,7 @@ Route::get('/', function () {
 })->name('home');
 */
 
-Route::view('/', 'home')->name('home');
+Route::view('/', 'index')->name('home');
 Route::view('/nosotros', 'nosotros')->name('nosotros');
 Route::view('/contacto', 'contacto')->name('contacto');
 Route::view('/sesion', 'sesion')->name('sesion');

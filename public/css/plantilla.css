@@ -1,0 +1,73 @@
+.contenedor{
+    width: 960px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+body{
+    color:black;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+active a {
+    color: rgba(197, 196, 191, 0.226);
+    text-decoration: none;
+}
+
+.footer {
+
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    max-width: 2000px;
+    padding: 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+
+
+  }
+.logosfooter{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+.nav-item{
+    color: black;
+}
+.navbar-brand{
+background-color:rgb(255, 255, 255);
+}
+.collapse.navbar-collapse{
+    background-color: rgb(255, 255, 255);
+color: black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-light bg-light{
+background-color: black;
+}
+
+.card-text{
+    color: black;
+}
+h5{
+    color:black;
+}
+
+

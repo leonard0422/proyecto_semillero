@@ -132,11 +132,11 @@
     Preload
     ======================================-->
 
-    <div id="loader-wrapper">
+    {{-- <div id="loader-wrapper">
         <img src="img/template/loader.jpg">
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
-    </div>
+    </div> --}}
 
     <header class="header header--standard header--market-place-4" data-sticky="true">
 

@@ -11,120 +11,120 @@
         crossorigin="anonymous">
 
 
-    	<link rel="icon" href="img/template/icono.png">
+    	<link rel="icon" href="{{ URL::asset('img/template/icono.png') }}">
 
 	<!--=====================================
 	CSS
 	======================================-->
 
 	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+	<link href="{{ URL::asset('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap')}}" rel="stylesheet">
 
 	<!-- font awesome -->
-	<link rel="stylesheet" href="css_p/plugins/fontawesome.min.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/fontawesome.min.css')}}">
 
 	<!-- linear icons -->
-	<link rel="stylesheet" href="css_p/plugins/linearIcons.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/linearIcons.css')}}">
 
 	<!-- Bootstrap 4 -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css')}}">
 
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css_p/plugins/owl.carousel.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/owl.carousel.css')}}">
 
 	<!-- Slick -->
-	<link rel="stylesheet" href="css_p/plugins/slick.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/slick.css')}}">
 
 	<!-- Light Gallery -->
-	<link rel="stylesheet" href="css_p/plugins/lightgallery.min.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/lightgallery.min.css')}}">
 
 	<!-- Font Awesome Start -->
-	<link rel="stylesheet" href="css_p/plugins/fontawesome-stars.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/fontawesome-stars.css')}}">
 
 	<!-- jquery Ui -->
-	<link rel="stylesheet" href="css_p/plugins/jquery-ui.min.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/jquery-ui.min.css')}}">
 
 	<!-- Select 2 -->
-	<link rel="stylesheet" href="css_p/plugins/select2.min.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/select2.min.css')}}">
 
 	<!-- Scroll Up -->
-	<link rel="stylesheet" href="css_p/plugins/scrollUp.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/plugins/scrollUp.css')}}">
 
     <!-- DataTable -->
-    <link rel="stylesheet" href="css_p/plugins/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="css_p/plugins/responsive.bootstrap.datatable.min.css">
+    <link rel="stylesheet" href="{{ URL::asset('css_p/plugins/dataTables.bootstrap4.min.css')}}">
+    <link rel="stylesheet" href="{{ URL::asset('css_p/plugins/responsive.bootstrap.datatable.min.css')}}">
 
 	<!-- estilo principal -->
-	<link rel="stylesheet" href="css_p/style.css">
+	<link rel="stylesheet" href="{{ URL::asset('css_p/style.css')}}">
 
 	<!-- Market Place 4 -->
-	<link rel="stylesheet" href="ccss_pss/market-place-4.css">
+	<link rel="stylesheet" href="{{ URL::asset('ccss_pss/market-place-4.css')}}">
 
 	<!--=====================================
 	PLUGINS JS
 	======================================-->
 
 	<!-- jQuery library -->
-	<script src="js/plugins/jquery-1.12.4.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/jquery-1.12.4.min.js')}}"></script>
 
 	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="{{ URL::asset('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js') }}"></script>
 
 	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="{{ URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js') }}"></script>
 
 	<!-- Owl Carousel -->
-	<script src="js/plugins/owl.carousel.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/owl.carousel.min.js') }}"></script>
 
 	<!-- Images Loaded -->
-	<script src="js/plugins/imagesloaded.pkgd.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/imagesloaded.pkgd.min.js') }}"></script>
 
 	<!-- Masonry -->
-	<script src="js/plugins/masonry.pkgd.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/masonry.pkgd.min.js') }}"></script>
 
 	<!-- Isotope -->
-	<script src="js/plugins/isotope.pkgd.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/isotope.pkgd.min.js') }}"></script>
 
 	<!-- jQuery Match Height -->
-	<script src="js/plugins/jquery.matchHeight-min.js"></script>
+	<script src="{{ URL::asset('js/plugins/jquery.matchHeight-min.js') }}"></script>
 
 	<!-- Slick -->
-	<script src="js/plugins/slick.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/slick.min.js') }}"></script>
 
 	<!-- jQuery Barrating -->
-	<script src="js/plugins/jquery.barrating.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/jquery.barrating.min.js') }}"></script>
 
 	<!-- Slick Animation -->
-	<script src="js/plugins/slick-animation.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/slick-animation.min.js') }}"></script>
 
 	<!-- Light Gallery -->
-	<script src="js/plugins/lightgallery-all.min.js"></script>
-    <script src="js/plugins/lg-thumbnail.min.js"></script>
-    <script src="js/plugins/lg-fullscreen.min.js"></script>
-    <script src="js/plugins/lg-pager.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/lightgallery-all.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/lg-thumbnail.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/lg-fullscreen.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/lg-pager.min.js') }}"></script>
 
 	<!-- jQuery UI -->
-	<script src="js/plugins/jquery-ui.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/jquery-ui.min.js') }}"></script>
 
 	<!-- Sticky Sidebar -->
-	<script src="js/plugins/sticky-sidebar.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/sticky-sidebar.min.js') }}"></script>
 
 	<!-- Slim Scroll -->
-	<script src="js/plugins/jquery.slimscroll.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/jquery.slimscroll.min.js') }}"></script>
 
 	<!-- Select 2 -->
-	<script src="js/plugins/select2.full.min.js"></script>
+	<script src="{{ URL::asset('js/plugins/select2.full.min.js') }}"></script>
 
 	<!-- Scroll Up -->
-	<script src="js/plugins/scrollUP.js"></script>
+	<script src="{{ URL::asset('js/plugins/scrollUP.js') }}"></script>
 
     <!-- DataTable -->
-    <script src="js/plugins/jquery.dataTables.min.js"></script>
-    <script src="js/plugins/dataTables.bootstrap4.min.js"></script>
-    <script src="js/plugins/dataTables.responsive.min.js"></script>
+    <script src="{{ URL::asset('js/plugins/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/dataTables.responsive.min.js') }}"></script>
 
     <!-- Chart -->
-    <script src="js/plugins/Chart.min.js"></script>
+    <script src="{{ URL::asset('js/plugins/Chart.min.js') }}"></script>
 
 </head>
 <body>
@@ -133,7 +133,7 @@
     ======================================-->
 
     {{--<div id="loader-wrapper">
-        <img src="img/template/loader.jpg">
+        <img src="{{ URL::asset('img/template/loader.jpg">
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
     </div>--}}
@@ -154,10 +154,10 @@
 
                 <div class="header__left">
                     <ul class="d-flex justify-content-center">
-						<li><a href="#" target="_blank"><i class="fab fa-facebook-f mr-4"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fab fa-instagram mr-4"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fab fa-twitter mr-4"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fab fa-youtube mr-4"></i></a></li>
+						<li><a href="{{ URL::asset('#')}}" target="_blank"><i class="fab fa-facebook-f mr-4"></i></a></li>
+						<li><a href="{{ URL::asset('#')}}" target="_blank"><i class="fab fa-instagram mr-4"></i></a></li>
+						<li><a href="{{ URL::asset('#')}}" target="_blank"><i class="fab fa-twitter mr-4"></i></a></li>
+						<li><a href="{{ URL::asset('#')}}" target="_blank"><i class="fab fa-youtube mr-4"></i></a></li>
 					</ul>
                 </div>
 
@@ -167,13 +167,13 @@
 
                 <div class="header__right">
                     <ul class="header__top-links">
-                        <li><a href="#">Sell on MarketPlace</a></li>
-                        <li><a href="#">Store List</a></li>
+                        <li><a href="{{ URL::asset('#')}}">Sell on MarketPlace</a></li>
+                        <li><a href="{{ URL::asset('#')}}">Store List</a></li>
                     	<li><i class="icon-telephone"></i> Hotline:<strong> 1-800-234-5678</strong></li>
                         <li>
-                            <div class="ps-dropdown language"><a href="#"><img src="img/template/en.png" alt="">English</a>
+                            <div class="ps-dropdown language"><a href="{{ URL::asset('#')}}"><img src="{{ URL::asset('img/template/en.png') }}"alt="">English</a>
                                 <ul class="ps-dropdown-menu">
-                                    <li><a href="#"><img src="img/template/es.png" alt=""> Spanish</a></li>
+                                    <li><a href="{{ URL::asset('#')}}"><img src="{{ URL::asset('img/template/es.png') }}" alt=""> Spanish</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -198,8 +198,8 @@
 					Logo
 					======================================-->
 
-                	<a class="ps-logo" href="index.html">
-                		<img src="img/template/logo_light.png" alt="">
+                	<a class="ps-logo" href="{{ URL::asset('index.html')}}">
+                		<img src="{{ URL::asset('img/template/logo_light.png') }}" alt="">
                 	</a>
 
                 	<!--=====================================
@@ -216,105 +216,105 @@
                         <div class="menu__content">
                             <ul class="menu--dropdown">
                                 <li>
-                                	<a href="#"><i class="icon-star"></i> Hot Promotions</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-star"></i> Hot Promotions</a>
                                 </li>
                                 <li class="menu-item-has-children has-mega-menu">
-                                	<a href="#"><i class="icon-laundry"></i> Consumer Electronic</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-laundry"></i> Consumer Electronic</a>
                                     <div class="mega-menu">
                                         <div class="mega-menu__column">
                                             <h4>Electronic<span class="sub-toggle"></span></h4>
                                             <ul class="mega-menu__list">
-                                                <li><a href="#">Home Audio &amp; Theathers</a>
+                                                <li><a href="{{ URL::asset('#')}}">Home Audio &amp; Theathers</a>
                                                 </li>
-                                                <li><a href="#">TV &amp; Videos</a>
+                                                <li><a href="{{ URL::asset('#')}}">TV &amp; Videos</a>
                                                 </li>
-                                                <li><a href="#">Camera, Photos &amp; Videos</a>
+                                                <li><a href="{{ URL::asset('#')}}">Camera, Photos &amp; Videos</a>
                                                 </li>
-                                                <li><a href="#">Cellphones &amp; Accessories</a>
+                                                <li><a href="{{ URL::asset('#')}}">Cellphones &amp; Accessories</a>
                                                 </li>
-                                                <li><a href="#">Headphones</a>
+                                                <li><a href="{{ URL::asset('#')}}">Headphones</a>
                                                 </li>
-                                                <li><a href="#">Videosgames</a>
+                                                <li><a href="{{ URL::asset('#')}}">Videosgames</a>
                                                 </li>
-                                                <li><a href="#">Wireless Speakers</a>
+                                                <li><a href="{{ URL::asset('#')}}">Wireless Speakers</a>
                                                 </li>
-                                                <li><a href="#">Office Electronic</a>
+                                                <li><a href="{{ URL::asset('#')}}">Office Electronic</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="mega-menu__column">
                                             <h4>Accessories &amp; Parts<span class="sub-toggle"></span></h4>
                                             <ul class="mega-menu__list">
-                                                <li><a href="#">Digital Cables</a>
+                                                <li><a href="{{ URL::asset('#')}}">Digital Cables</a>
                                                 </li>
-                                                <li><a href="#">Audio &amp; Video Cables</a>
+                                                <li><a href="{{ URL::asset('#')}}">Audio &amp; Video Cables</a>
                                                 </li>
-                                                <li><a href="#">Batteries</a>
+                                                <li><a href="{{ URL::asset('#')}}">Batteries</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-shirt"></i> Clothing &amp; Apparel</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-shirt"></i> Clothing &amp; Apparel</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-lampshade"></i> Home, Garden &amp; Kitchen</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-lampshade"></i> Home, Garden &amp; Kitchen</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-heart-pulse"></i> Health &amp; Beauty</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-heart-pulse"></i> Health &amp; Beauty</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-diamond2"></i> Yewelry &amp; Watches</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-diamond2"></i> Yewelry &amp; Watches</a>
                                 </li>
                                 <li class="menu-item-has-children has-mega-menu">
-                                	<a href="#"><i class="icon-desktop"></i> Computer &amp; Technology</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-desktop"></i> Computer &amp; Technology</a>
                                     <div class="mega-menu">
                                         <div class="mega-menu__column">
                                             <h4>Computer &amp; Technologies<span class="sub-toggle"></span></h4>
                                             <ul class="mega-menu__list">
-                                                <li><a href="#">Computer &amp; Tablets</a>
+                                                <li><a href="{{ URL::asset('#')}}">Computer &amp; Tablets</a>
                                                 </li>
-                                                <li><a href="#">Laptop</a>
+                                                <li><a href="{{ URL::asset('#')}}">Laptop</a>
                                                 </li>
-                                                <li><a href="#">Monitors</a>
+                                                <li><a href="{{ URL::asset('#')}}">Monitors</a>
                                                 </li>
-                                                <li><a href="#">Networking</a>
+                                                <li><a href="{{ URL::asset('#')}}">Networking</a>
                                                 </li>
-                                                <li><a href="#">Drive &amp; Storages</a>
+                                                <li><a href="{{ URL::asset('#')}}">Drive &amp; Storages</a>
                                                 </li>
-                                                <li><a href="#">Computer Components</a>
+                                                <li><a href="{{ URL::asset('#')}}">Computer Components</a>
                                                 </li>
-                                                <li><a href="#">Security &amp; Protection</a>
+                                                <li><a href="{{ URL::asset('#')}}">Security &amp; Protection</a>
                                                 </li>
-                                                <li><a href="#">Gaming Laptop</a>
+                                                <li><a href="{{ URL::asset('#')}}">Gaming Laptop</a>
                                                 </li>
-                                                <li><a href="#">Accessories</a>
+                                                <li><a href="{{ URL::asset('#')}}">Accessories</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-baby-bottle"></i> Babies &amp; Moms</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-baby-bottle"></i> Babies &amp; Moms</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-baseball"></i> Sport &amp; Outdoor</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-baseball"></i> Sport &amp; Outdoor</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-smartphone"></i> Phones &amp; Accessories</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-smartphone"></i> Phones &amp; Accessories</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-book2"></i> Books &amp; Office</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-book2"></i> Books &amp; Office</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-car-siren"></i> Cars &amp; Motocycles</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-car-siren"></i> Cars &amp; Motocycles</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-wrench"></i> Home Improments</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-wrench"></i> Home Improments</a>
                                 </li>
                                 <li>
-                                	<a href="#"><i class="icon-tag"></i> Vouchers &amp; Services</a>
+                                	<a href="{{ URL::asset('#')}}"><i class="icon-tag"></i> Vouchers &amp; Services</a>
                                 </li>
                             </ul>
 
@@ -352,7 +352,7 @@
 						Wishlist
 						======================================-->
 
-                    	<a class="header__extra" href="#">
+                    	<a class="header__extra" href="{{ URL::asset('#')}}">
                     		<i class="icon-heart"></i><span><i>0</i></span>
                     	</a>
 
@@ -362,7 +362,7 @@
 
                         <div class="ps-cart--mini">
 
-                        	<a class="header__extra" href="#">
+                        	<a class="header__extra" href="{{ URL::asset('#')}}">
                         		<i class="icon-bag2"></i><span><i>0</i></span>
                         	</a>
 
@@ -373,16 +373,16 @@
                                     <div class="ps-product--cart-mobile">
 
                                         <div class="ps-product__thumbnail">
-                                        	<a href="#">
-                                        		<img src="img/products/clothing/7.jpg" alt="">
+                                        	<a href="{{ URL::asset('#')}}">
+                                        		<img src="{{ URL::asset('img/products/clothing/7.jpg') }}" alt="">
                                         	</a>
                                         </div>
 
                                         <div class="ps-product__content">
-                                        	<a class="ps-product__remove" href="#">
+                                        	<a class="ps-product__remove" href="{{ URL::asset('#')}}">
                                         		<i class="icon-cross"></i>
                                         	</a>
-                                        	<a href="product-default.html">MVMTH Classical Leather Watch In Black</a>
+                                        	<a href="{{ URL::asset('product-default.html')}}">MVMTH Classical Leather Watch In Black</a>
                                             <p><strong>Sold by:</strong> YOUNG SHOP</p>
                                             <small>1 x $59.99</small>
                                         </div>
@@ -392,16 +392,16 @@
                                     <div class="ps-product--cart-mobile">
 
                                         <div class="ps-product__thumbnail">
-                                        	<a href="#">
-                                        		<img src="img/products/clothing/5.jpg" alt="">
+                                        	<a href="{{ URL::asset('#')}}">
+                                        		<img src="{{ URL::asset('img/products/clothing/5.jpg') }}" alt="">
                                         	</a>
                                         </div>
 
                                         <div class="ps-product__content">
-                                        	<a class="ps-product__remove" href="#">
+                                        	<a class="ps-product__remove" href="{{ URL::asset('#')}}">
                                         		<i class="icon-cross"></i>
                                         	</a>
-                                        	<a href="product-default.html">Sleeve Linen Blend Caro Pane Shirt</a>
+                                        	<a href="{{ URL::asset('product-default.html')}}">Sleeve Linen Blend Caro Pane Shirt</a>
                                             <p><strong>Sold by:</strong> YOUNG SHOP</p>
                                             <small>1 x $59.99</small>
                                         </div>
@@ -414,8 +414,8 @@
 
                                     <h3>Sub Total:<strong>$59.99</strong></h3>
                                     <figure>
-                                    	<a class="ps-btn" href="shopping-cart.html">View Cart</a>
-                                    	<a class="ps-btn" href="checkout.html">Checkout</a>
+                                    	<a class="ps-btn" href="{{ URL::asset('shopping-cart.html')}}">View Cart</a>
+                                    	<a class="ps-btn" href="{{ URL::asset('checkout.html')}}">Checkout</a>
                                     </figure>
 
                                 </div>
@@ -433,8 +433,8 @@
                             	<i class="icon-user"></i>
                             </div>
                             <div class="ps-block__right">
-                            	<a href="my-account.html">Login</a>
-                            	<a href="my-account.html">Register</a>
+                            	<a href="{{ URL::asset('my-account.html')}}">Login</a>
+                            	<a href="{{ URL::asset('my-account.html')}}">Register</a>
                             </div>
                         </div>
 

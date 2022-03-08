@@ -22,5 +22,7 @@ Route::view('/', 'index')->name('home');
 Route::view('/nosotros', 'nosotros')->name('nosotros');
 Route::view('/contacto', 'contacto')->name('contacto');
 Route::view('/sesion', 'sesion')->name('sesion');
-
+Route::view('/products','products')->name('products');
 Route::post('contacto', 'MsgController@store' );
+
+

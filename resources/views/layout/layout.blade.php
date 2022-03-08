@@ -1147,7 +1147,7 @@
                     </div>
                 </div>
                 <div class="ps-cart__footer">
-                    <h3>Sub Total:<strong>$59.99</strong></h3>
+                    <h3>Sub Total:<strong>$1000</strong></h3>
                     <figure><a class="ps-btn" href="shopping-cart.html">View Cart</a><a class="ps-btn" href="checkout.html">Checkout</a></figure>
                 </div>
             </div>

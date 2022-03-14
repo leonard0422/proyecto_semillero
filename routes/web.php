@@ -19,7 +19,7 @@ Route::get('/', function () {
 */
 
 Route::view('/', 'index')->name('home');
-Route::view('/nosotros', 'nosotros')->name('nosotros');
+Route::view('/categorias', 'categorias')->name('categorias');
 Route::view('/contacto', 'contacto')->name('contacto');
 Route::view('/sesion', 'sesion')->name('sesion');
 Route::view('/products','products')->name('products');

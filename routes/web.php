@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::view('/', 'index')->name('home');
 Route::view('/categorias', 'categorias')->name('categorias');
-Route::view('/contacto', 'contacto')->name('contacto');
+Route::view('/checkout', 'checkout')->name('checkout');
 Route::view('/sesion', 'sesion')->name('sesion');
 Route::view('/products','products')->name('products');
 Route::post('contacto', 'MsgController@store' );

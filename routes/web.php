@@ -20,9 +20,13 @@ Route::get('/', function () {
 
 Route::view('/', 'index')->name('home');
 Route::view('/categorias', 'categorias')->name('categorias');
+Route::view('/404page', '404page')->name('404page');
+Route::view('/become-vendor', 'become-vendor')->name('become-vendor');
 Route::view('/checkout', 'checkout')->name('checkout');
-Route::view('/sesion', 'sesion')->name('sesion');
-Route::view('/products','products')->name('products');
+Route::view('/faqs', 'faqs')->name('faqs');
+Route::view('/login', 'login')->name('login');
+Route::view('/cart','shopping-car')->name('shopping-car');
+Route::view('/vstore','vendor-store')->name('vendor-store');
 Route::post('contacto', 'MsgController@store' );
 
 

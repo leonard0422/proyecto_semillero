@@ -27,6 +27,9 @@ Route::view('/faqs', 'faqs')->name('faqs');
 Route::view('/login', 'login')->name('login');
 Route::view('/cart','shopping-car')->name('shopping-car');
 Route::view('/vstore','vendor-store')->name('vendor-store');
+Route::view('/aboutus', 'about-us')->name('about-us');
+Route::view('/contact', 'contact-us')->name('contact-us');
+Route::view('/storel','store-list')->name('store-list');
 Route::post('contacto', 'MsgController@store' );
 
 

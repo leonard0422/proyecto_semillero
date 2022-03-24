@@ -1,10 +1,9 @@
 @extends('layout.layout')
-
 @section('content')
-   <!--=====================================
+ <!--=====================================
     Breadcrumb
-    ======================================-->
-
+    ======================================-->  
+	
 	<div class="ps-breadcrumb">
 
         <div class="container">
@@ -13,7 +12,7 @@
 
                 <li><a href="index.html">Home</a></li>
 
-                <li>My Account</li>
+                <li>Contact Us</li>
 
             </ul>
 
@@ -22,158 +21,97 @@
     </div>
 
     <!--=====================================
-    Login - Register Content
-    ======================================-->
-
-    <div class="ps-my-account">
-
-        <div class="container">
-
-            <form class="ps-form--account ps-tab-root" action="link.html" method="get">
-
-                <ul class="ps-tab-list">
-
-                    <li class="active"><a href="#sign-in">Login</a></li>
-
-                    <li class=""><a href="#register">Register</a></li>
-
-                </ul>
-
-                <div class="ps-tabs">
-
-                    <!--=====================================
-                    Login Form
-                    ======================================-->
-
-                    <div class="ps-tab active" id="sign-in">
-
-                        <div class="ps-form__content">
-
-                            <h5>Log In Your Account</h5>
-
-                            <div class="form-group">
-
-                                <input class="form-control" type="text" placeholder="Username or email address">
-
-                            </div>
-
-                            <div class="form-group form-forgot">
-
-                                <input class="form-control" type="text" placeholder="Password">
-
-                                <a href="">Forgot?</a>
-
-                            </div>
-
-                            <div class="form-group">
-
-                                <div class="ps-checkbox">
-
-                                    <input class="form-control" type="checkbox" id="remember-me" name="remember-me">
-
-                                    <label for="remember-me">Rememeber me</label>
-
-                                </div>
-
-                            </div>
-
-                            <div class="form-group submtit">
-
-                                <button class="ps-btn ps-btn--fullwidth">Login</button>
-
-                            </div>
-
-                        </div>
-
-                        <div class="ps-form__footer">
-
-                            <p>Connect with:</p>
-
-                            <ul class="ps-list--social">
-
-                                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a class="google" href="#"><i class="fab fa-google"></i></a></li>
-
-                            </ul>
-
-                        </div>
-
-                    </div><!-- End Login Form -->
-
-                    <!--=====================================
-                    Register Form
-                    ======================================-->
-
-                    <div class="ps-tab" id="register">
-
-                        <div class="ps-form__content">
-
-                            <h5>Register An Account</h5>
-
-                            <div class="form-group">
-
-                                <input class="form-control" type="text" placeholder="First name">
-
-                            </div>
-
-                            <div class="form-group">
-
-                                <input class="form-control" type="text" placeholder="Last name">
-
-                            </div>
-
-                            <div class="form-group">
-
-                                <input class="form-control" type="text" placeholder="Username">
-
-                            </div>
-
-                            <div class="form-group">
-
-                                <input class="form-control" type="email" placeholder="Email address">
-
-                            </div>
-
-                            <div class="form-group">
-
-                                <input class="form-control" type="text" placeholder="Password">
-
-                            </div>
-
-                            <div class="form-group submtit">
-
-                                <button class="ps-btn ps-btn--fullwidth">Register</button>
-
-                            </div>
-
-                        </div>
-
-                        <div class="ps-form__footer">
-
-                            <p>Connect with:</p>
-
-                            <ul class="ps-list--social">
-
-                                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a class="google" href="#"><i class="fab fa-google"></i></a></li>
-
-                            </ul>
-
-                        </div>
-
-                    </div><!-- End Register Form -->
-
+    Contact Us Content
+    ======================================--> 
+    
+     <div class="ps-page--single" id="contact-us">
+      
+        <div id="contact-map" data-address="17 Queen St, Southbank, Melbourne 10560, Australia" data-title="Funiture!" data-zoom="17"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.7867596416277!2d144.95969216590427!3d-37.818463442086525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b33a8229d7%3A0x82e61d1c45adbceb!2sMartfury!5e0!3m2!1ses!2sco!4v1585843820136!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        
+        <div class="ps-contact-info">
+            <div class="container">
+                <div class="ps-section__header">
+                    <h3>Contact Us For Any Questions</h3>
                 </div>
-
-            </form>
-
+                <div class="ps-section__content">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                            <div class="ps-block--contact-info">
+                                <h4>Contact Directly</h4>
+                                <p><a href="#"><span class="__cf_email__" data-cfemail="f2919d9c86939186b29f9380869487808bdc919d9f">[email&#160;protected]</span></a><span>(+004) 912-3548-07</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                            <div class="ps-block--contact-info">
+                                <h4>Head Quater</h4>
+                                <p><span>17 Queen St, Southbank, Melbourne 10560, Australia</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                            <div class="ps-block--contact-info">
+                                <h4>Work With Us</h4>
+                                <p><span>Send your CV to our email:</span><a href="#"><span class="__cf_email__" data-cfemail="b3d0d2c1d6d6c1f3ded2c1c7d5c6c1ca9dd0dcde">[email&#160;protected]</span></a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                            <div class="ps-block--contact-info">
+                                <h4>Customer Service</h4>
+                                <p><a href="#"><span class="__cf_email__" data-cfemail="15766066617a7870677674677055787467617360676c3b767a78">[email&#160;protected]</span></a><span>(800) 843-2446</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                            <div class="ps-block--contact-info">
+                                <h4>Media Relations</h4>
+                                <p><a href="#"><span class="__cf_email__" data-cfemail="0c616968656d4c616d7e786a797e75226f6361">[email&#160;protected]</span></a><span>(801) 947-3564</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                            <div class="ps-block--contact-info">
+                                <h4>Vendor Support</h4>
+                                <p><a href="#"><span class="__cf_email__" data-cfemail="6d1b080309021f1e181d1d021f192d000c1f190b181f14430e0200">[email&#160;protected]</span></a><span>(801) 947-3100</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
+        <div class="ps-contact-form">
+            <div class="container">
+                <form class="ps-form--contact-us" action="index.html" method="get">
+                    <h3>Get In Touch</h3>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Name *">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Email *">
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Subject *">
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group submit">
+                        <button class="ps-btn">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-
+  
     <!--=====================================
 	Newletter
-	======================================-->
+	======================================-->  
 
     <div class="ps-newsletter">
 
@@ -215,7 +153,7 @@
 
     <!--=====================================
 	Footer
-	======================================-->
+	======================================-->  
 
     <footer class="ps-footer">
 
@@ -225,7 +163,7 @@
 
             	<!--=====================================
 				Contact us
-				======================================-->
+				======================================-->  
 
                 <aside class="widget widget_footer widget_contact-us">
 
@@ -252,7 +190,7 @@
 
                 <!--=====================================
 				Quick Links
-				======================================-->
+				======================================-->  
 
                 <aside class="widget widget_footer">
 
@@ -276,7 +214,7 @@
 
                 <!--=====================================
 				Company
-				======================================-->
+				======================================-->  
 
                 <aside class="widget widget_footer">
 
@@ -298,7 +236,7 @@
 
                 <!--=====================================
 				Bussiness
-				======================================-->
+				======================================-->  
 
                 <aside class="widget widget_footer">
 
@@ -322,7 +260,7 @@
 
           	<!--=====================================
 			Categories Footer
-			======================================-->
+			======================================-->  
 
             <div class="ps-footer__links">
 
@@ -396,7 +334,7 @@
 
             <!--=====================================
 			CopyRight - Payment method Footer
-			======================================-->
+			======================================-->  
 
             <div class="ps-footer__copyright">
 
@@ -438,4 +376,4 @@
 	======================================-->
 
 	<script src="js/main.js"></script>
-    @endsection
+@endsection

@@ -113,7 +113,7 @@
     </div>
   </div>
 
-  <script src="css/app.js"></script>
+  <script src="js/app.js"></script>
 @endsection
 
 </body>

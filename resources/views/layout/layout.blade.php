@@ -126,6 +126,8 @@
     <!-- Chart -->
     <script src="{{ URL::asset('js/plugins/Chart.min.js') }}"></script>
 
+    
+
 </head>
 <body>
      <!--=====================================
@@ -460,7 +462,7 @@
 
                 <ul class="d-flex justify-content-center">
 					<li><a href="#" target="_blank"><i class="fab fa-facebook-f mr-4"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fab fa-instagram mr-4"></i></a></li>					
+					<li><a href="#" target="_blank"><i class="fab fa-instagram mr-4"></i></a></li>
 					<li><a href="#" target="_blank"><i class="fab fa-twitter mr-4"></i></a></li>
 					<li><a href="#" target="_blank"><i class="fab fa-youtube mr-4"></i></a></li>
 				</ul>
@@ -469,10 +471,10 @@
             <div class="header__right">
 
                 <ul class="navigation__extra">
-                    
+
                     <li><a href="#">Sell on MarketPlace</a></li>
                     <li><a href="#">Store List</a></li>
-                    <li><i class="icon-telephone"></i> Hotline:<strong> 1-800-234-5678</strong></li>    
+                    <li><i class="icon-telephone"></i> Hotline:<strong> 1-800-234-5678</strong></li>
 
                     <li>
 
@@ -503,7 +505,7 @@
 				======================================-->
 
                 <div class="menu--product-categories">
-                    
+
                     <div class="ps-shop__filter-mb mt-4" id="filter-sidebar">
                     	<i class="icon-menu "></i>
                     </div>
@@ -685,11 +687,11 @@
 					                </li>
 					            </ul>
 
-					        </aside>   
+					        </aside>
 
 					    </div>
 
-					</div>        
+					</div>
 
                 </div><!-- End menu-->
 
@@ -726,7 +728,7 @@
                                     </div>
 
                                     <div class="ps-product__content">
-                                    	
+
                                     	<a class="ps-product__remove" href="#">
                                     		<i class="icon-cross"></i>
                                     	</a>

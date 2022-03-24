@@ -30,6 +30,8 @@ Route::view('/vstore','vendor-store')->name('vendor-store');
 Route::view('/aboutus', 'about-us')->name('about-us');
 Route::view('/contact', 'contact-us')->name('contact-us');
 Route::view('/storel','store-list')->name('store-list');
+Route::view('/products','products')->name('products');
+Route::view('/login2','login2')->name('login2');
 Route::post('contacto', 'MsgController@store' );
 
 

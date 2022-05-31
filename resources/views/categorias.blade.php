@@ -1,7 +1,7 @@
 	<!--=====================================
 	Header Promotion
 	======================================-->
-
+{{--
 	<div class="ps-block--promotion-header bg--cover" style="background: url(img/banner/top/header-promotion.jpg);">
         <div class="container">
             <div class="ps-block__left">
@@ -15,15 +15,15 @@
                 <p>Enter Promotion<span>Sale2019</span></p>
             </div><a class="ps-btn ps-btn--sm" href="#">Shop now</a>
         </div>
-    </div>
+    </div> --}}
 @extends('layout.layout')
 
 @section('content')
 
     <!--=====================================
     Breadcrumb
-    ======================================-->  
-	
+    ======================================-->
+
 	<div class="ps-breadcrumb">
 
         <div class="container">
@@ -32,7 +32,7 @@
 
                 <li><a href="index.html">Home</a></li>
 
-                <li>Categories</li>
+                <li>Categorias</li>
 
             </ul>
 
@@ -42,7 +42,7 @@
 
     <!--=====================================
     Categories Content
-    ======================================--> 
+    ======================================-->
 
     <div class="container-fuid bg-white my-4">
 
@@ -50,21 +50,21 @@
 
 	    	<!--=====================================
 			Layout Categories
-			======================================--> 
+			======================================-->
 
 		    <div class="ps-layout--shop">
-	        
+
 		        <section>
 
 		        	<!--=====================================
     				Best Sale Items
-    				======================================--> 
+    				======================================-->
 
                     <div class="ps-block--shop-features">
 
                         <div class="ps-block__header">
 
-                            <h3>Best Sale Items</h3>
+                            <h3>Mejores artículos de venta</h3>
 
                             <div class="ps-block__navigation">
 
@@ -86,7 +86,7 @@
 
                             	<!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -114,7 +114,7 @@
                                             	<a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist">
                                             		<i class="icon-heart"></i>
                                             	</a>
-                                            </li>                                           
+                                            </li>
 
                                         </ul>
 
@@ -122,12 +122,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Young Shop</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Sleeve Linen Blend Caro Pane Shirt</a>
+                                        	kiwi</a>
 
                                             <div class="ps-product__rating">
 
@@ -144,16 +144,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price">$22.99 - $32.99</p>
+                                            <p class="ps-product__price">$5000</p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Sleeve Linen Blend Caro Pane Shirt</a>
+                                        	Kiwi</a>
 
-                                            <p class="ps-product__price">$22.99 - $32.99</p>
+                                            <p class="ps-product__price">$5000</p>
 
                                         </div>
 
@@ -163,7 +163,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -195,7 +195,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -203,12 +203,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Young Shop</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	MVMTH Classical Leather Watch In Black</a>
+                                        	Fresas</a>
 
                                             <div class="ps-product__rating">
 
@@ -226,16 +226,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price sale">$57.99 <del>$62.99 </del></p>
+                                            <p class="ps-product__price sale">$3000 <del>$5000 </del></p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	MVMTH Classical Leather Watch In Black</a>
+                                        	Fresas</a>
 
-                                            <p class="ps-product__price sale">$57.99 <del>$62.99 </del></p>
+                                            <p class="ps-product__price sale">$3000 <del>$5000 </del></p>
 
                                         </div>
 
@@ -245,7 +245,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -277,7 +277,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -285,11 +285,11 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Young Shop</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                         <div class="ps-product__content">
 
-                                        	<a class="ps-product__title" href="product-default.html">Unero Military Classical Backpack</a>
+                                        	<a class="ps-product__title" href="product-default.html">Banano</a>
 
                                             <div class="ps-product__rating">
 
@@ -307,16 +307,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price sale">$35.00 <del>$60.00 </del></p>
+                                            <p class="ps-product__price sale">$2500 <del>$5500 </del></p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Unero Military Classical Backpack</a>
+                                        	Banano</a>
 
-                                            <p class="ps-product__price sale">$35.00 <del>$60.00 </del></p>
+                                            <p class="ps-product__price sale">$2500 <del>$5500 </del></p>
 
                                         </div>
 
@@ -326,7 +326,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -358,7 +358,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -366,12 +366,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Go Pro</a>
+                                    	<a class="ps-product__vendor" href="#">Frutas doña Lucia</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Sound Intone I65 Earphone White Version</a>
+                                        	Mango</a>
 
                                             <div class="ps-product__rating">
 
@@ -389,16 +389,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price sale">$100.00 <del>$105.00 </del></p>
+                                            <p class="ps-product__price sale">$4000 <del>$6000 </del></p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Sound Intone I65 Earphone White Version</a>
+                                        	Mango</a>
 
-                                            <p class="ps-product__price sale">$100.00 <del>$105.00 </del></p>
+                                            <p class="ps-product__price sale">$4000 <del>$6000 </del></p>
 
                                         </div>
 
@@ -408,7 +408,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -438,7 +438,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -446,12 +446,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Global Office</a>
+                                    	<a class="ps-product__vendor" href="#">Frutas doña Lucia</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Herschel Leather Duffle Bag In Brown Color</a>
+                                        	Naranjas</a>
 
                                             <div class="ps-product__rating">
 
@@ -469,16 +469,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price">$125.30</p>
+                                            <p class="ps-product__price">$2000</p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Herschel Leather Duffle Bag In Brown Color</a>
+                                        	Naranjas</a>
 
-                                            <p class="ps-product__price">$125.30</p>
+                                            <p class="ps-product__price">$2000</p>
 
                                         </div>
 
@@ -488,7 +488,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -498,7 +498,7 @@
                                     		<img src="img/products/shop/best/6.jpg" alt="">
                                     	</a>
 
-                                        <div class="ps-product__badge hot">Hot</div>
+                                        <div class="ps-product__badge hot">Super Vendido</div>
 
                                         <ul class="ps-product__actions">
 
@@ -520,7 +520,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -528,12 +528,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Global Office</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Xbox One Wireless Controller Black Color</a>
+                                        	Cocos</a>
 
                                             <div class="ps-product__rating">
 
@@ -551,16 +551,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price sale">$1025.00 <del>$1422.00 </del></p>
+                                            <p class="ps-product__price sale">$8500 <del>$10000</del></p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Xbox One Wireless Controller Black Color</a>
+                                        	Cocos</a>
 
-                                            <p class="ps-product__price sale">$1025.00 <del>$1422.00 </del></p>
+                                            <p class="ps-product__price sale">$8500 <del>$10000 </del></p>
 
                                         </div>
 
@@ -570,7 +570,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -600,7 +600,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -608,11 +608,11 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Robert's Store</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don Dago</a>
 
                                         <div class="ps-product__content">
 
-                                        	<a class="ps-product__title" href="product-default.html">Samsung UHD TV 24inch</a>
+                                        	<a class="ps-product__title" href="product-default.html">Pomelos</a>
 
                                             <div class="ps-product__rating">
 
@@ -630,15 +630,15 @@
 
                                             </div>
 
-                                            <p class="ps-product__price">$599.00</p>
+                                            <p class="ps-product__price">$5000</p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
-                                        	<a class="ps-product__title" href="product-default.html">Samsung UHD TV 24inch</a>
+                                        	<a class="ps-product__title" href="product-default.html">Pomelos</a>
 
-                                            <p class="ps-product__price">$599.00</p>
+                                            <p class="ps-product__price">$5000</p>
 
                                         </div>
 
@@ -654,13 +654,13 @@
 
                     <!--=====================================
     				Recommended Items
-    				======================================--> 
+    				======================================-->
 
-                    <div class="ps-block--shop-features">
+                    {{-- <div class="ps-block--shop-features">
 
                         <div class="ps-block__header">
 
-                            <h3>Recommended Items</h3>
+                            <h3>Frutas recomendadas</h3>
 
                             <div class="ps-block__navigation">
 
@@ -682,7 +682,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -714,7 +714,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -722,12 +722,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Young Shop</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Ciate Palemore Lipstick Bold Red Color</a>
+                                        	Almendra</a>
 
                                             <div class="ps-product__rating">
 
@@ -745,16 +745,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price sale">$42.99 <del>$60.00 </del></p>
+                                            <p class="ps-product__price sale">$4000 <del>$6000 </del></p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Ciate Palemore Lipstick Bold Red Color</a>
+                                        	Almendra</a>
 
-                                            <p class="ps-product__price sale">$42.99 <del>$60.00 </del></p>
+                                            <p class="ps-product__price sale">$4000 <del>$6000 </del></p>
 
                                         </div>
 
@@ -764,7 +764,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -796,7 +796,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -804,12 +804,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Robert's Store</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda de roberto</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Set 30 Piece Korea StartSkin Natural Mask</a>
+                                        	Melocoton</a>
 
                                             <div class="ps-product__rating">
 
@@ -827,16 +827,16 @@
 
                                             </div>
 
-                                            <p class="ps-product__price sale">$32.99 <del>$60.00 </del></p>
+                                            <p class="ps-product__price sale">$2500 <del>$4000 </del></p>
 
                                         </div>
 
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Set 30 Piece Korea StartSkin Natural Mask</a>
+                                        	Melocotonk</a>
 
-                                            <p class="ps-product__price sale">$32.99 <del>$60.00 </del></p>
+                                            <p class="ps-product__price sale">$2500 <del>$4000 </del></p>
 
                                         </div>
 
@@ -846,7 +846,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -878,7 +878,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -886,12 +886,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Go Pro</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda de roberto</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Baxter Care Hair Kit For Bearded Mens</a>
+                                        	Mandarina</a>
 
                                             <div class="ps-product__rating">
 
@@ -916,7 +916,7 @@
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Baxter Care Hair Kit For Bearded Mens</a>
+                                        	Mandarina</a>
 
                                             <p class="ps-product__price sale">$93.00 <del>$60.00 </del></p>
 
@@ -928,7 +928,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -958,7 +958,7 @@
                                             	<a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist">
                                             		<i class="icon-heart"></i>
                                             	</a>
-                                            </li>      
+                                            </li>
 
                                         </ul>
 
@@ -966,12 +966,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Go Pro</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Letter Printed Cushion Cover Cotton</a>
+                                        	Zanahoria</a>
 
                                             <div class="ps-product__rating">
 
@@ -996,7 +996,7 @@
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Letter Printed Cushion Cover Cotton</a>
+                                        	Zanahoria</a>
 
                                             <p class="ps-product__price sale">$13.00 <del>$20.00 </del></p>
 
@@ -1036,7 +1036,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -1044,12 +1044,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Young Shop</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda de roberto</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Amcrest Security Camera in White Color</a>
+                                        	remolacha</a>
 
                                             <div class="ps-product__rating">
 
@@ -1074,7 +1074,7 @@
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	Amcrest Security Camera in White Color</a>
+                                        	Remolacha</a>
 
                                             <p class="ps-product__price sale">$13.00 <del>$20.00 </del></p>
 
@@ -1086,7 +1086,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -1118,7 +1118,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -1126,12 +1126,12 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Young Shop</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                         <div class="ps-product__content">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	LG White Front Load Steam Washer</a>
+                                        	Apios</a>
 
                                             <div class="ps-product__rating">
 
@@ -1156,7 +1156,7 @@
                                         <div class="ps-product__content hover">
 
                                         	<a class="ps-product__title" href="product-default.html">
-                                        	LG White Front Load Steam Washer</a>
+                                        	Apios</a>
 
                                             <p class="ps-product__price sale">$1025.00 <del>$1422.00 </del></p>
 
@@ -1168,7 +1168,7 @@
 
                                 <!--=====================================
     							Product
-    							======================================--> 
+    							======================================-->
 
                                 <div class="ps-product">
 
@@ -1198,7 +1198,7 @@
                                             	</a>
                                             </li>
 
-                                            
+
 
                                         </ul>
 
@@ -1206,11 +1206,11 @@
 
                                     <div class="ps-product__container">
 
-                                    	<a class="ps-product__vendor" href="#">Robert's Store</a>
+                                    	<a class="ps-product__vendor" href="#">Tienda de roberto</a>
 
                                         <div class="ps-product__content">
 
-                                        	<a class="ps-product__title" href="product-default.html">Samsung UHD TV 24inch</a>
+                                        	<a class="ps-product__title" href="product-default.html">Espinacas</a>
 
                                             <div class="ps-product__rating">
 
@@ -1234,7 +1234,7 @@
 
                                         <div class="ps-product__content hover">
 
-                                        	<a class="ps-product__title" href="product-default.html">Samsung UHD TV 24inch</a>
+                                        	<a class="ps-product__title" href="product-default.html">Espinacas</a>
 
                                             <p class="ps-product__price">$599.00</p>
 
@@ -1248,37 +1248,37 @@
 
                         </div>
 
-                    </div><!-- End Recommended Items -->
+                    </div><!-- End Recommended Items --> --}}
 
                     <!--=====================================
     				Products found
-    				======================================--> 
+    				======================================-->
 
                     <div class="ps-shopping ps-tab-root">
 
                     	<!--=====================================
     					Shoping Header
-    					======================================--> 
+    					======================================-->
 
                         <div class="ps-shopping__header">
 
-                            <p><strong> 36</strong> Products found</p>
+                            <p><strong> 36</strong> Productos encontrados</p>
 
                             <div class="ps-shopping__actions">
 
                                 <select class="ps-select" data-placeholder="Sort Items">
 
-                                    <option>Sort by latest</option>
-                                    <option>Sort by popularity</option>
-                                    <option>Sort by average rating</option>
-                                    <option>Sort by price: low to high</option>
-                                    <option>Sort by price: high to low</option>
+                                    <option>Ordenar por ultimas ventas</option>
+                                    <option>Ordenar por popularidad</option>
+                                    <option>Ordenar por calificación promedio</option>
+                                    <option>Ordenar por precio: de menor a mayor</option>
+                                    <option>Ordenar por precio: de mayor a menor</option>
 
                                 </select>
 
                                 <div class="ps-shopping__view">
 
-                                    <p>View</p>
+                                    <p>Vista</p>
 
                                     <ul class="ps-tab-list">
 
@@ -1304,13 +1304,13 @@
 
                         <!--=====================================
     					Shoping Body
-    					======================================--> 
+    					======================================-->
 
                         <div class="ps-tabs">
 
                         	<!--=====================================
     						Grid View
-    						======================================--> 
+    						======================================-->
 
                             <div class="ps-tab active" id="tab-1">
 
@@ -1320,7 +1320,7 @@
 
                                     	<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
 
@@ -1352,7 +1352,7 @@
                                                         	</a>
                                                         </li>
 
-                                                        
+
 
                                                     </ul>
 
@@ -1360,12 +1360,12 @@
 
                                                 <div class="ps-product__container">
 
-                                                	<a class="ps-product__vendor" href="#">ROBERT’S STORE</a>
+                                                	<a class="ps-product__vendor" href="#">Tienda de roberto</a>
 
                                                     <div class="ps-product__content">
 
                                                     	<a class="ps-product__title" href="product-default.html">
-                                                    	Apple iPhone Retina 6s Plus 64GB</a>
+                                                    	Kiwi</a>
 
                                                         <p class="ps-product__price">$1310.00</p>
 
@@ -1374,7 +1374,7 @@
                                                     <div class="ps-product__content hover">
 
                                                     	<a class="ps-product__title" href="product-default.html">
-                                                    	Apple iPhone Retina 6s Plus 64GB</a>
+                                                    	Kiwi</a>
 
                                                         <p class="ps-product__price">$1310.00</p>
 
@@ -1388,7 +1388,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1397,14 +1397,14 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Young Shop</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Apple iPhone Retina 6s Plus 64GB</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Tienda de roberto</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Kiwi</a>
                                                         <p class="ps-product__price">$1150.00</p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Apple iPhone Retina 6s Plus 64GB</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Kiwi</a>
                                                         <p class="ps-product__price">$1150.00</p>
                                                     </div>
                                                 </div>
@@ -1413,7 +1413,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1426,17 +1426,17 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
 
                                                 <div class="ps-product__container">
 
-                                                    <a class="ps-product__vendor" href="#">Go Pro</a>
+                                                    <a class="ps-product__vendor" href="#">Tienda don paco</a>
 
                                                     <div class="ps-product__content">
-                                                        <a class="ps-product__title" href="product-default.html">Marshall Kilburn Portable Wireless Speaker</a>
-                                                        
+                                                        <a class="ps-product__title" href="product-default.html">Melocoton</a>
+
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1448,7 +1448,7 @@
                                                         </div>
                                                         <p class="ps-product__price">$42.99 - $60.00</p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Marshall Kilburn Portable Wireless Speaker</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Melocoton</a>
                                                         <p class="ps-product__price">$42.99 - $60.00</p>
                                                     </div>
                                                 </div>
@@ -1457,7 +1457,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1466,11 +1466,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Go Pro</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Herschel Leather Duffle Bag In Brown Color</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Tienda don paco</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Limones</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1482,7 +1482,7 @@
                                                         </div>
                                                         <p class="ps-product__price">$125.30</p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Herschel Leather Duffle Bag In Brown Color</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Limones</a>
                                                         <p class="ps-product__price">$125.30</p>
                                                     </div>
                                                 </div>
@@ -1491,7 +1491,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1501,11 +1501,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Global Office</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Xbox One Wireless Controller Black Color</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Frutas doña lucia</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html"> Manzana</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1517,7 +1517,7 @@
                                                         </div>
                                                         <p class="ps-product__price">$55.99</p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Xbox One Wireless Controller Black Color</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Manzana</a>
                                                         <p class="ps-product__price">$55.99</p>
                                                     </div>
                                                 </div>
@@ -1526,7 +1526,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1536,11 +1536,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Robert's Store</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Grand Slam Indoor Of Show Jumping Novel</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Tienda de roberto</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Naranjas</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1552,7 +1552,7 @@
                                                         </div>
                                                         <p class="ps-product__price sale">$32.99 <del>$41.00 </del></p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Grand Slam Indoor Of Show Jumping Novel</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Naranjas</a>
                                                         <p class="ps-product__price sale">$32.99 <del>$41.00 </del></p>
                                                     </div>
                                                 </div>
@@ -1561,7 +1561,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1571,11 +1571,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Youngshop</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Sound Intone I65 Earphone White Version</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Tienda don paco</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Apios</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1587,7 +1587,7 @@
                                                         </div>
                                                         <p class="ps-product__price sale">$100.99 <del>$106.00 </del></p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Sound Intone I65 Earphone White Version</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Apios</a>
                                                         <p class="ps-product__price sale">$100.99 <del>$106.00 </del></p>
                                                     </div>
                                                 </div>
@@ -1596,7 +1596,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1606,11 +1606,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Youngshop</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Korea Long Sofa Fabric In Blue Navy Color</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Tienda don paco</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Espinacas</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1622,7 +1622,7 @@
                                                         </div>
                                                         <p class="ps-product__price sale">$567.89 <del>$670.20 </del></p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Korea Long Sofa Fabric In Blue Navy Color</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Espinacas</a>
                                                         <p class="ps-product__price sale">$567.89 <del>$670.20 </del></p>
                                                     </div>
                                                 </div>
@@ -1631,7 +1631,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1641,11 +1641,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Young shop</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Unero Military Classical Backpack</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Frutas doña lucia</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Uvas</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1657,7 +1657,7 @@
                                                         </div>
                                                         <p class="ps-product__price sale">$35.89 <del>$42.20 </del></p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Unero Military Classical Backpack</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">uvas</a>
                                                         <p class="ps-product__price sale">$35.89 <del>$42.20 </del></p>
                                                     </div>
                                                 </div>
@@ -1666,7 +1666,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1675,11 +1675,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Young shop</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Rayban Rounded Sunglass Brown Color</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Tiendas doña firmina</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">piña</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1691,7 +1691,7 @@
                                                         </div>
                                                         <p class="ps-product__price">$35.89</p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Rayban Rounded Sunglass Brown Color</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">piña</a>
                                                         <p class="ps-product__price">$35.89</p>
                                                     </div>
                                                 </div>
@@ -1700,7 +1700,7 @@
 
 										<!--=====================================
     									Product
-    									======================================--> 
+    									======================================-->
 
                                         <div class="col-lg-2 col-md-4 col-6">
                                             <div class="ps-product">
@@ -1709,11 +1709,11 @@
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
+
                                                     </ul>
                                                 </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Go Pro</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Sleeve Linen Blend Caro Pane Shirt</a>
+                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Tienda de roberto</a>
+                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Melon</a>
                                                         <div class="ps-product__rating">
                                                             <select class="ps-rating" data-read-only="true">
                                                                 <option value="1">1</option>
@@ -1725,47 +1725,12 @@
                                                         </div>
                                                         <p class="ps-product__price">$29.39 - $39.99</p>
                                                     </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Sleeve Linen Blend Caro Pane Shirt</a>
+                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Melon</a>
                                                     	<p class="ps-product__price">$29.39 - $39.99</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div><!-- End Product -->
-
-										<!--=====================================
-    									Product
-    									======================================--> 
-
-                                        <div class="col-lg-2 col-md-4 col-6">
-                                            <div class="ps-product">
-                                                <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/11.jpg" alt=""></a>
-                                                    <ul class="ps-product__actions">
-                                                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="icon-bag2"></i></a></li>
-                                                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Quick View"><i class="icon-eye"></i></a></li>
-                                                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Add to Whishlist"><i class="icon-heart"></i></a></li>
-                                                       
-                                                    </ul>
-                                                </div>
-                                                <div class="ps-product__container"><a class="ps-product__vendor" href="#">Robert's Store</a>
-                                                    <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Men’s Sports Runnning Swim Board Shorts</a>
-                                                        <div class="ps-product__rating">
-                                                            <select class="ps-rating" data-read-only="true">
-                                                                <option value="1">1</option>
-                                                                <option value="1">2</option>
-                                                                <option value="1">3</option>
-                                                                <option value="1">4</option>
-                                                                <option value="2">5</option>
-                                                            </select><span>01</span>
-                                                        </div>
-                                                        <p class="ps-product__price">$13.43</p>
-                                                    </div>
-                                                    <div class="ps-product__content hover"><a class="ps-product__title" href="product-default.html">Men’s Sports Runnning Swim Board Shorts</a>
-                                                        <p class="ps-product__price">$13.43</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div><!-- End Product -->
-
                                     </div>
 
                                 </div>
@@ -1776,7 +1741,7 @@
                                         <li class="active"><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
                                         <li><a href="#">3</a></li>
-                                        <li><a href="#">Next Page<i class="icon-chevron-right"></i></a></li>
+                                        <li><a href="#">Siguiente pagina<i class="icon-chevron-right"></i></a></li>
                                     </ul>
 
                                 </div>
@@ -1785,7 +1750,7 @@
 
                             <!--=====================================
     						List View
-    						======================================--> 
+    						======================================-->
 
                             <div class="ps-tab" id="tab-2">
 
@@ -1793,7 +1758,7 @@
 
                                 	<!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
 
@@ -1810,18 +1775,15 @@
                                             <div class="ps-product__content">
 
                                             	<a class="ps-product__title" href="product-default.html">
-                                            	Apple iPhone Retina 6s Plus 64GB</a>
+                                            	Kiwi</a>
 
-                                                <p class="ps-product__vendor">Sold by:
-                                                	<a href="#">ROBERT’S STORE</a>
+                                                <p class="ps-product__vendor">Vendido por:
+                                                	<a href="#">Tienda de roberto</a>
                                                 </p>
 
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Kiwi en buen estado</li>
+                                                    <li> Fresco para su consumo</li>
                                                 </ul>
 
                                             </div>
@@ -1833,8 +1795,8 @@
                                                 <a class="ps-btn" href="#">Add to cart</a>
 
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>Ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
 
                                             </div>
@@ -1845,27 +1807,24 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/1.jpg" alt=""></a>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Apple iPhone Retina 6s Plus 64GB</a>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Young Shop</a></p>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Kiwi</a>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">tienda de paco</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Kiwi en buen estado</li>
+                                                    <li> Fresco para su consumo</li>
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
                                                 <p class="ps-product__price">$1150.00</p><a class="ps-btn" href="#">Add to cart</a>
                                                 <ul class="ps-product__actions">
                                                     <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1873,13 +1832,13 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/2.jpg" alt=""></a>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Marshall Kilburn Portable Wireless Speaker</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Melocoton</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -1889,20 +1848,17 @@
                                                         <option value="2">5</option>
                                                     </select><span>01</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Go Pro</a></p>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">Tienda doña lucia</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li>Melocoton fino</li>
+                                                    <li> Fresco para su consumo</li>
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
                                                 <p class="ps-product__price">$42.99 - $60.00</p><a class="ps-btn" href="#">Add to cart</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>Ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1910,13 +1866,13 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/3.jpg" alt=""></a>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Herschel Leather Duffle Bag In Brown Color</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Limones</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -1926,20 +1882,18 @@
                                                         <option value="2">5</option>
                                                     </select><span>01</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Go Pro</a></p>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">Tienda don paco</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Limones acidos y rellenos</li>
+                                                    <li> Frescos para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price">$125.30</p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price">$125.30</p><a class="ps-btn" href="#">Añadir al carrito</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1947,13 +1901,13 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/4.jpg" alt=""></a>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Xbox One Wireless Controller Black Color</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Manzana</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -1963,20 +1917,18 @@
                                                         <option value="2">5</option>
                                                     </select><span>01</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Global Office</a></p>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">Tienda de roberto</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Manzana roja y hermosa</li>
+                                                    <li> Fresca para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price">$55.99</p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price">$55.99</p><a class="ps-btn" href="#">añadir al carrito</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>Ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1984,14 +1936,14 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/5.jpg" alt=""></a>
                                             <div class="ps-product__badge">-37%</div>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Grand Slam Indoor Of Show Jumping Novel</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Naranjas</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -2001,20 +1953,18 @@
                                                         <option value="2">5</option>
                                                     </select><span>01</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Robert's Store</a></p>
+                                                <p class="ps-product__vendor">Sold by:<a href="#">Tienda de roberto</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Narajan jugosas</li>
+                                                    <li> Frescas para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price sale">$32.99 <del>$41.00 </del></p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price sale">$32.99 <del>$41.00 </del></p><a class="ps-btn" href="#">Añadir al carrito</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>Ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2022,14 +1972,14 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/6.jpg" alt=""></a>
                                             <div class="ps-product__badge">-5%</div>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Sound Intone I65 Earphone White Version</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Apios</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -2039,20 +1989,18 @@
                                                         <option value="2">5</option>
                                                     </select><span>01</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Youngshop</a></p>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">Tienda don paco</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Bonitos y verdes</li>
+                                                    <li> Frescos para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price sale">$100.99 <del>$106.00 </del></p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price sale">$100.99 <del>$106.00 </del></p><a class="ps-btn" href="#">Añadir al carrito</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2060,14 +2008,14 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/7.jpg" alt=""></a>
                                             <div class="ps-product__badge">-16%</div>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Korea Long Sofa Fabric In Blue Navy Color</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Espinacas</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -2077,20 +2025,18 @@
                                                         <option value="2">5</option>
                                                     </select><span>01</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Youngshop</a></p>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">Tienda de roberto</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Te hace fuerte como Popeye</li>
+                                                    <li> Frescas para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price sale">$567.89 <del>$670.20 </del></p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price sale">$567.89 <del>$670.20 </del></p><a class="ps-btn" href="#">Añadir al carrito</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>Ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2098,14 +2044,14 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/8.jpg" alt=""></a>
                                             <div class="ps-product__badge">-16%</div>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Unero Military Classical Backpack</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Uvas</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -2115,20 +2061,18 @@
                                                         <option value="2">5</option>
                                                     </select><span>02</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Young shop</a></p>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">Frutas doña lucia</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Bonitas y moraditas</li>
+                                                    <li> Frescas para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price sale">$35.89 <del>$42.20 </del></p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price sale">$35.89 <del>$42.20 </del></p><a class="ps-btn" href="#">Añadir al carrito</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>Ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2136,13 +2080,13 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/9.jpg" alt=""></a>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Rayban Rounded Sunglass Brown Color</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Piñas</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -2152,20 +2096,18 @@
                                                         <option value="2">5</option>
                                                     </select><span>02</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Young shop</a></p>
+                                                <p class="ps-product__vendor">Vendido por:<a href="#">tiendas don paco</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Preciosas piñas</li>
+                                                    <li> Frescas para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price">$35.89</p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price">$35.89</p><a class="ps-btn" href="#">Añadir al carro</a>
                                                 <ul class="ps-product__actions">
-                                                	<li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>                       
+                                                	<li><a href="#"><i class="icon-eye"></i>ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2173,13 +2115,13 @@
 
                                     <!--=====================================
     								Product
-    								======================================--> 
+    								======================================-->
 
                                     <div class="ps-product ps-product--wide">
                                         <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/10.jpg" alt=""></a>
                                         </div>
                                         <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Sleeve Linen Blend Caro Pane Shirt</a>
+                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Melon</a>
                                                 <div class="ps-product__rating">
                                                     <select class="ps-rating" data-read-only="true">
                                                         <option value="1">1</option>
@@ -2189,62 +2131,22 @@
                                                         <option value="2">5</option>
                                                     </select><span>01</span>
                                                 </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Go Pro</a></p>
+                                                <p class="ps-product__vendor">Vendido:<a href="#">Tienda de roberto</a></p>
                                                 <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
+                                                    <li> Melon gordito</li>
+                                                    <li> Frescos para su consumo</li>
+
                                                 </ul>
                                             </div>
                                             <div class="ps-product__shopping">
-                                                <p class="ps-product__price">$29.39 - $39.99</p><a class="ps-btn" href="#">Add to cart</a>
+                                                <p class="ps-product__price">$29.39 - $39.99</p><a class="ps-btn" href="#">Añadir al carrito</a>
                                                 <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
+                                                    <li><a href="#"><i class="icon-eye"></i>Ver</a></li>
+                                                    <li><a href="#"><i class="icon-heart"></i> Lista de deseos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div><!-- End Product -->
-
-                                    <!--=====================================
-    								Product
-    								======================================--> 
-
-                                    <div class="ps-product ps-product--wide">
-                                        <div class="ps-product__thumbnail"><a href="product-default.html"><img src="img/products/shop/11.jpg" alt=""></a>
-                                        </div>
-                                        <div class="ps-product__container">
-                                            <div class="ps-product__content"><a class="ps-product__title" href="product-default.html">Men’s Sports Runnning Swim Board Shorts</a>
-                                                <div class="ps-product__rating">
-                                                    <select class="ps-rating" data-read-only="true">
-                                                        <option value="1">1</option>
-                                                        <option value="1">2</option>
-                                                        <option value="1">3</option>
-                                                        <option value="1">4</option>
-                                                        <option value="2">5</option>
-                                                    </select><span>01</span>
-                                                </div>
-                                                <p class="ps-product__vendor">Sold by:<a href="#">Robert's Store</a></p>
-                                                <ul class="ps-product__desc">
-                                                    <li> Unrestrained and portable active stereo speaker</li>
-                                                    <li> Free from the confines of wires and chords</li>
-                                                    <li> 20 hours of portable capabilities</li>
-                                                    <li> Double-ended Coil Cord with 3.5mm Stereo Plugs Included</li>
-                                                    <li> 3/4″ Dome Tweeters: 2X and 4″ Woofer: 1X</li>
-                                                </ul>
-                                            </div>
-                                            <div class="ps-product__shopping">
-                                                <p class="ps-product__price">$13.43</p><a class="ps-btn" href="#">Add to cart</a>
-                                                <ul class="ps-product__actions">
-                                                    <li><a href="#"><i class="icon-eye"></i>View</a></li>
-                                                    <li><a href="#"><i class="icon-heart"></i> Wishlist</a></li>       
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- End Product -->
-           
                                 </div>
 
                                 <div class="ps-pagination">
@@ -2254,7 +2156,7 @@
                                         <li class="active"><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
                                         <li><a href="#">3</a></li>
-                                        <li><a href="#">Next Page<i class="icon-chevron-right"></i></a></li>
+                                        <li><a href="#">Siguiente pagina<i class="icon-chevron-right"></i></a></li>
 
                                     </ul>
 
@@ -2276,8 +2178,8 @@
 
     <!--=====================================
 	Newletter
-	======================================-->  
-
+	======================================-->
+{{-- 
     <div class="ps-newsletter">
 
         <div class="container">
@@ -2314,12 +2216,12 @@
 
         </div>
 
-    </div>
+    </div> --}}
 
     <!--=====================================
 	Footer
-	======================================-->  
-
+	======================================-->
+{{--
     <footer class="ps-footer">
 
         <div class="container">
@@ -2328,7 +2230,7 @@
 
             	<!--=====================================
 				Contact us
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer widget_contact-us">
 
@@ -2355,7 +2257,7 @@
 
                 <!--=====================================
 				Quick Links
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -2379,7 +2281,7 @@
 
                 <!--=====================================
 				Company
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -2401,7 +2303,7 @@
 
                 <!--=====================================
 				Bussiness
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -2425,7 +2327,7 @@
 
           	<!--=====================================
 			Categories Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__links">
 
@@ -2499,7 +2401,7 @@
 
             <!--=====================================
 			CopyRight - Payment method Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__copyright">
 
@@ -2534,7 +2436,7 @@
 
         </div>
 
-    </footer>
+    </footer> --}}
 
 	<!--=====================================
 	JS PERSONALIZADO

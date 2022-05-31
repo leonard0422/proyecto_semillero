@@ -37,76 +37,90 @@
     <li class="nav-item ">
         <a class="nav-link " aria-current="page" href="/storel">store</a>
     </li> --}}
-      <!--=====================================
-    Home Content
-    ======================================-->  
+    <!--=====================================
+                Home Content
+                ======================================-->
 
     <div id="homepage-6">
 
-    	<!--=====================================
-    	Home Banner
-    	======================================-->  
+        <!--=====================================
+                Home Banner
+                ======================================-->
 
-    	<div class="ps-home-banner">
-            <div class="ps-carousel--nav-inside owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="on" data-owl-animate-in="fadeIn" data-owl-animate-out="fadeOut">
+        <div class="ps-home-banner">
+            <div class="ps-carousel--nav-inside owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000"
+                data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1"
+                data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000"
+                data-owl-mousedrag="on" data-owl-animate-in="fadeIn" data-owl-animate-out="fadeOut"
+                style="max-height: 50vh;">
 
-                <div class="ps-banner--market-4" data-background="img/slider/horizontal/1.jpg">
-                	<img src="img/slider/horizontal/1.jpg" alt="">
-                    <div class="ps-banner__content">
-                        <h4>Limit Edition</h4>
-                        <h3>HAPPY SUMMER <br/> 
-                        	COMBO SUPER COOL <br/> 
-                        	<p>UP TO <strong> 40%</strong></p>
-                        </h3>
-                        <a class="ps-btn" href="#">Shop Now</a>
+                <div class="ps-banner--market-4" style="">
+
+                    {{-- <img src="img/slider/horizontal/1.jpg" alt=""> --}}
+                    <div class="ps-banner__content my-5 d-flex align-items-center"
+                        style="min-height: 44vh; background-image: url(img/slider/horizontal/1_1.jpg); background-position-y: 50%; background-size: 100%; background-repeat: no-repeat;">
+                        <div class="row ms-5 py-5" style="background-color: #00000036; width: 30%;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="text-white">OFERTA DE VERANO</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="text-white">15% Dct <br />
+                                        En compras de bananos, naranjas, uvas<br />
+                                        <p class="text-white">Descuento valido hasta: <strong> 30-Junio-2022</strong></p>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <a class="ps-btn" href="#">Comprar ahora!</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="ps-banner--market-4" data-background="img/slider/horizontal/2.jpg">
-                	<img src="img/slider/horizontal/2.jpg" alt="">
-                    <div class="ps-banner__content">
-                        <h4>Version 2018</h4>
-                        <h3>EXPERIENCE FEEL <br/> 
-                        	GREATEST WITH VITURAL <br/> 
-                        	<p>REALITY JUST <strong> $599</strong></p>
-                        </h3>
-                        <a class="ps-btn" href="#">Shop Now</a>
+                <div class="ps-banner--market-4">
+                    {{-- <img src="img/slider/horizontal/2.jpg" alt=""> --}}
+                    <div class="ps-banner__content my-5 d-flex align-items-center"
+                        style="min-height: 44vh ; background-image: url(img/slider/horizontal/1_2.jpg); background-position-y: 50%; background-size: 100%; background-repeat: no-repeat;">
+                        <div class="row ms-5 py-5" style="background-color: #00000036; width: 30%;">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="text-white">OFERTA DE VERANO</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="text-white">Los cocos estan locos!!! <br />
+                                        Descuento de 80% Dct en compras de cocos <br />
+                                        <p class="text-white">Descuento valido hasta: <strong> 15-Junio-2022</strong></p>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <a class="ps-btn" href="#">Comprar ahora!</a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 
-                <div class="ps-banner--market-4" data-background="img/slider/horizontal/3.jpg">
-                	<img src="img/slider/horizontal/3.jpg" alt="">
-                    <div class="ps-banner__content">
-                        <h4>Mega Sale Nov 2019</h4>
-                        <h3>DOUBLE COMBO WITH <br/> 
-                        	THE BODY SHOP <br/> 
-                        	<p>Sale up to <strong> 50%</strong></p>
-                        </h3>
-                        <a class="ps-btn" href="#">Shop Now</a>
-                    </div>
-                </div>
 
-                <div class="ps-banner--market-4" data-background="img/slider/horizontal/4.jpg">
-                	<img src="img/slider/horizontal/4.jpg" alt="">
-                    <div class="ps-banner__content">
-                        <h4>Mega Sale Nov 2017</h4>
-                        <h3>IKEA MINIMALIST <br/> 
-                        	OTOMAN <br/>
-                        	<p>Discount <strong> 50% OFF</strong></p>
-                        </h3>
-                        <a class="ps-btn" href="#">Shop Now</a>
-                    </div>
-                </div>
-             
             </div>
 
         </div><!-- End Home Banner-->
 
         <!--=====================================
-    	Home Features
-    	======================================-->  
+                Home Features
+                ======================================-->
 
-        <div class="ps-site-features">
+        <div class="ps-site-features mb-5">
 
             <div class="container">
 
@@ -115,32 +129,32 @@
                     <div class="ps-block__item">
                         <div class="ps-block__left"><i class="icon-rocket"></i></div>
                         <div class="ps-block__right">
-                            <h4>Free Delivery</h4>
-                            <p>For all oders over $99</p>
+                            <h4>Entrega gratis</h4>
+                            <p>Por compras de más de $80.000</p>
                         </div>
                     </div>
 
                     <div class="ps-block__item">
                         <div class="ps-block__left"><i class="icon-sync"></i></div>
                         <div class="ps-block__right">
-                            <h4>90 Days Return</h4>
-                            <p>If goods have problems</p>
+                            <h4>30 Días de regreso</h4>
+                            <p>Si tienes problemas con tu mercancia</p>
                         </div>
                     </div>
 
                     <div class="ps-block__item">
                         <div class="ps-block__left"><i class="icon-credit-card"></i></div>
                         <div class="ps-block__right">
-                            <h4>Secure Payment</h4>
-                            <p>100% secure payment</p>
+                            <h4>Pago seguro</h4>
+                            <p>Pago 100% seguro</p>
                         </div>
                     </div>
 
                     <div class="ps-block__item">
                         <div class="ps-block__left"><i class="icon-bubbles"></i></div>
                         <div class="ps-block__right">
-                            <h4>24/7 Support</h4>
-                            <p>Dedicated support</p>
+                            <h4>Soporte 24/7</h4>
+                            <p>Soporte dedicado</p>
                         </div>
                     </div>
 
@@ -151,25 +165,25 @@
         </div><!-- End Home Features-->
 
         <!--=====================================
-    	Home Promotions
-    	======================================-->  
+                Home Promotions
+                ======================================-->
 
         <div class="ps-promotions">
 
             <div class="container">
 
-                <div class="row">
+                <div class="row justify-content-center">
 
                     <div class="col-md-6 col-12 ">
-                    	<a class="ps-collection" href="shop-default.html">
-                    		<img src="img/banner/default/1.jpg" alt="">
-                    	</a>
+                        <a class="ps-collection" href="shop-default.html">
+                            <img src="img/banner/default/1_1.jpg" alt="">
+                        </a>
                     </div>
 
                     <div class="col-md-6 col-12 ">
-                    	<a class="ps-collection" href="shop-default.html">
-                    		<img src="img/banner/default/2.jpg" alt="">
-                    	</a>
+                        <a class="ps-collection" href="shop-default.html">
+                            <img src="img/banner/default/1_1.jpg" alt="">
+                        </a>
                     </div>
 
                 </div>
@@ -179,8 +193,8 @@
         </div><!-- End Home Promotions-->
 
         <!--=====================================
-    	Home Deal Hot Today
-    	======================================-->  
+                Home Deal Hot Today
+                ======================================-->
 
         <div class="ps-deal-hot">
 
@@ -188,9 +202,9 @@
 
                 <div class="row">
 
-                	<!--=====================================
-					Column Deal Hot
-    				======================================-->  
+                    <!--=====================================
+                 Column Deal Hot
+                ======================================-->
 
                     <div class="col-xl-9 col-12 ">
 
@@ -198,26 +212,31 @@
 
                             <div class="ps-block__header">
 
-                                <h3>Deal hot today</h3>
+                                <h3>Ofertas calientes del día
+                                </h3>
 
                                 <div class="ps-block__navigation">
-                                	<a class="ps-carousel__prev" href=".ps-carousel--deal-hot">
-                                		<i class="icon-chevron-left"></i>
-                                	</a>
-                                	<a class="ps-carousel__next" href=".ps-carousel--deal-hot">
-                                		<i class="icon-chevron-right"></i>
-                                	</a>
+                                    <a class="ps-carousel__prev" href=".ps-carousel--deal-hot">
+                                        <i class="icon-chevron-left"></i>
+                                    </a>
+                                    <a class="ps-carousel__next" href=".ps-carousel--deal-hot">
+                                        <i class="icon-chevron-right"></i>
+                                    </a>
                                 </div>
 
                             </div>
 
                             <div class="ps-product__content">
 
-                                <div class="ps-carousel--deal-hot ps-carousel--deal-hot owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000" data-owl-gap="0" data-owl-nav="false" data-owl-dots="false" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="on">
+                                <div class="ps-carousel--deal-hot ps-carousel--deal-hot owl-slider" data-owl-auto="true"
+                                    data-owl-loop="true" data-owl-speed="5000" data-owl-gap="0" data-owl-nav="false"
+                                    data-owl-dots="false" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1"
+                                    data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000"
+                                    data-owl-mousedrag="on">
 
                                     <!--=====================================
-    								Product Deal Home
-    								======================================-->                                 
+                Product Deal Home
+                ======================================-->
 
                                     <div class="ps-product--detail ps-product--hot-deal">
 
@@ -232,43 +251,44 @@
                                                         <div class="ps-product__gallery" data-arrow="true">
 
                                                             <div class="item">
-                                                            	<a href="img/products/deal-hot/a-1.jpg">
-                                                            		<img src="img/products/deal-hot/a-1.jpg" alt="">
-                                                            	</a>
+                                                                <a href="img/products/deal-hot/a-1.jpg">
+                                                                    <img src="img/products/deal-hot/a_1_1.jpg" alt="">
+                                                                </a>
                                                             </div>
 
                                                             <div class="item">
-                                                            	<a href="img/products/deal-hot/a-2.jpg">
-                                                            		<img src="img/products/deal-hot/a-2.jpg" alt="">
-                                                            	</a>
+                                                                <a href="img/products/deal-hot/a-2.jpg">
+                                                                    <img src="img/products/deal-hot/a_1_2.jpg" alt="">
+                                                                </a>
                                                             </div>
 
                                                             <div class="item">
-                                                            	<a href="img/products/deal-hot/a-3.jpg">
-                                                            		<img src="img/products/deal-hot/a-3.jpg" alt="">
-                                                            	</a>
+                                                                <a href="img/products/deal-hot/a-3.jpg">
+                                                                    <img src="img/products/deal-hot/a_1_3.jpg" alt="">
+                                                                </a>
                                                             </div>
 
                                                         </div>
 
                                                         <div class="ps-product__badge">
-                                                        	<span>Save <br> $280.000</span>
+                                                            <span>Ahorra <br> $60.000</span>
                                                         </div>
 
                                                     </div>
 
                                                 </figure>
 
-                                                <div class="ps-product__variants" data-item="4" data-md="3" data-sm="3" data-arrow="false">
+                                                <div class="ps-product__variants" data-item="4" data-md="3" data-sm="3"
+                                                    data-arrow="false">
 
                                                     <div class="item">
-                                                    	<img src="img/products/deal-hot/a-1.jpg" alt="">
+                                                        <img src="img/products/deal-hot/a_1_1.jpg" alt="">
                                                     </div>
                                                     <div class="item">
-                                                    	<img src="img/products/deal-hot/a-2.jpg" alt="">
+                                                        <img src="img/products/deal-hot/a_1_2.jpg" alt="">
                                                     </div>
                                                     <div class="item">
-                                                    	<img src="img/products/deal-hot/a-3.jpg" alt="">
+                                                        <img src="img/products/deal-hot/a_1_3.jpg" alt="">
                                                     </div>
 
                                                 </div>
@@ -277,13 +297,13 @@
 
                                             <div class="ps-product__info">
 
-                                                <h5>Clothing & Apparel</h5>
+                                                <h5>Cocolerios S.A</h5>
 
-                                                <h3 class="ps-product__name">Herschel Leather Duffle Bag In Brown Color</h3>
+                                                <h3 class="ps-product__name">Cocos x12 UD</h3>
 
                                                 <div class="ps-product__meta">
 
-                                                    <h4 class="ps-product__price sale">$36.78 <del> $56.99</del></h4>
+                                                    <h4 class="ps-product__price sale">$20.000 <del> $80.000</del></h4>
 
                                                     <div class="ps-product__rating">
 
@@ -297,13 +317,13 @@
 
                                                         </select>
 
-                                                        <span>(1 review)</span>
+                                                        <span>(1 reseña)</span>
 
                                                     </div>
 
                                                     <div class="ps-product__specification">
 
-                                                        <p>Status:<strong class="in-stock"> In Stock</strong></p>
+                                                        <p>Estado:<strong class="in-stock">Stock disponible</strong></p>
 
                                                     </div>
 
@@ -311,9 +331,9 @@
 
                                                 <div class="ps-product__expires">
 
-                                                    <p>Expires In</p>
+                                                    <p>Expira en</p>
 
-                                                    <ul class="ps-countdown" data-time="July 21, 2020 23:00:00">
+                                                    <ul class="ps-countdown" data-time="July 30, 2022 23:00:00">
 
                                                         <li><span class="days"></span>
                                                             <p>Days</p>
@@ -337,11 +357,11 @@
 
                                                 <div class="ps-product__processs-bar">
 
-                                                    <div class="ps-progress" data-value="10">
-                                                    	<span class="ps-progress__value"></span>
+                                                    <div class="ps-progress" data-value="90">
+                                                        <span class="ps-progress__value"></span>
                                                     </div>
 
-                                                    <p><strong>4/79</strong> Sold</p>
+                                                    <p><strong>60/79</strong> ventas</p>
 
                                                 </div>
 
@@ -352,8 +372,8 @@
                                     </div><!-- End Product Deal Hot -->
 
                                     <!--=====================================
-    								Product Deal Home
-    								======================================-->        
+                Product Deal Home
+                ======================================-->
 
                                     <div class="ps-product--detail ps-product--hot-deal">
 
@@ -368,55 +388,47 @@
                                                         <div class="ps-product__gallery" data-arrow="true">
 
                                                             <div class="item">
-                                                            	<a href="img/products/deal-hot/b-1.jpg">
-                                                            		<img src="img/products/deal-hot/b-1.jpg" alt="">
-                                                            	</a>
+                                                                <a href="img/products/deal-hot/b_1_1.jpg">
+                                                                    <img src="img/products/deal-hot/b_1_1.jpg" alt="">
+                                                                </a>
                                                             </div>
 
                                                             <div class="item">
-                                                            	<a href="img/products/deal-hot/b-2.jpg">
-                                                            		<img src="img/products/deal-hot/b-2.jpg" alt="">
-                                                            	</a>
+                                                                <a href="img/products/deal-hot/b_1_2.jpg">
+                                                                    <img src="img/products/deal-hot/b_1_2.jpg" alt="">
+                                                                </a>
                                                             </div>
 
                                                             <div class="item">
-                                                            	<a href="img/products/deal-hot/b-3.jpg">
-                                                            		<img src="img/products/deal-hot/b-3.jpg" alt="">
-                                                            	</a>
+                                                                <a href="img/products/deal-hot/b_1_3.jpg">
+                                                                    <img src="img/products/deal-hot/b_1_3.jpg" alt="">
+                                                                </a>
                                                             </div>
 
-                                                            <div class="item">
-                                                            	<a href="img/products/deal-hot/b-4.jpg">
-                                                            		<img src="img/products/deal-hot/b-4.jpg" alt="">
-                                                            	</a>
-                                                            </div>
 
                                                         </div>
 
                                                         <div class="ps-product__badge">
-                                                        	<span>Save <br> $9.000</span>
+                                                            <span>Ahorra <br> $10.000</span>
                                                         </div>
 
                                                     </div>
 
                                                 </figure>
 
-                                                <div class="ps-product__variants" data-item="4" data-md="3" data-sm="3" data-arrow="false">
+                                                <div class="ps-product__variants" data-item="4" data-md="3" data-sm="3"
+                                                    data-arrow="false">
 
                                                     <div class="item">
-                                                    	<img src="img/products/deal-hot/b-1.jpg" alt="">
+                                                        <img src="img/products/deal-hot/b_1_1.jpg" alt="">
                                                     </div>
 
                                                     <div class="item">
-                                                    	<img src="img/products/deal-hot/b-2.jpg" alt="">
+                                                        <img src="img/products/deal-hot/b_1_2.jpg" alt="">
                                                     </div>
 
                                                     <div class="item">
-                                                    	<img src="img/products/deal-hot/b-3.jpg" alt="">
-                                                    </div>
-
-                                                    <div class="item">
-                                                    	<img src="img/products/deal-hot/b-4.jpg" alt="">
+                                                        <img src="img/products/deal-hot/b_1_3.jpg" alt="">
                                                     </div>
 
                                                 </div>
@@ -425,13 +437,14 @@
 
                                             <div class="ps-product__info">
 
-                                                <h5>Consumer Electrics</h5>
+                                                <h5>La Plataneria</h5>
 
-                                                <h3 class="ps-product__name">Evolution Sport Drilled and Slotted Brake Kit</h3>
-                                                
+                                                <h3 class="ps-product__name">Caja de platananos x8 UD
+                                                </h3>
+
                                                 <div class="ps-product__meta">
 
-                                                    <h4 class="ps-product__price sale">$97.78 <del> $156.99</del></h4>
+                                                    <h4 class="ps-product__price sale">$20.000 <del> $30.000</del></h4>
 
                                                     <div class="ps-product__rating">
 
@@ -444,13 +457,13 @@
                                                             <option value="2">5</option>
 
                                                         </select>
-                                                        <span>(1 review)</span>
+                                                        <span>(2 reseñas)</span>
 
                                                     </div>
 
                                                     <div class="ps-product__specification">
 
-                                                        <p>Status:<strong class="in-stock"> In Stock</strong></p>
+                                                        <p>Estado:<strong class="in-stock">Stock disponible</strong></p>
 
                                                     </div>
 
@@ -458,9 +471,9 @@
 
                                                 <div class="ps-product__expires">
 
-                                                    <p>Expires In</p>
+                                                    <p>Expira en</p>
 
-                                                    <ul class="ps-countdown" data-time="July 21, 2020 23:00:00">
+                                                    <ul class="ps-countdown" data-time="Juny 30, 2022 23:00:00">
 
                                                         <li><span class="days"></span>
                                                             <p>Days</p>
@@ -485,10 +498,10 @@
                                                 <div class="ps-product__processs-bar">
 
                                                     <div class="ps-progress" data-value="60">
-                                                    	<span class="ps-progress__value"></span>
+                                                        <span class="ps-progress__value"></span>
                                                     </div>
 
-                                                    <p><strong>30/50</strong> Sold</p>
+                                                    <p><strong>30/50</strong> ventas</p>
 
                                                 </div>
 
@@ -504,39 +517,42 @@
 
                         </div><!-- End deal hot -->
 
-                    </div><!-- End Columns --> 
+                    </div><!-- End Columns -->
 
                     <!--=====================================
-					Column Top 20 Best Seller
-    				======================================-->  
+                 Column Top 20 Best Seller
+                ======================================-->
 
                     <div class="col-xl-3 col-12 ">
 
                         <aside class="widget widget_best-sale" data-mh="dealhot">
 
-                            <h3 class="widget-title">Top 20 Best Seller</h3>
+                            <h3 class="widget-title">Top 4 de lo más vendidos</h3>
 
                             <div class="widget__content">
 
-                                <div class="owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000" data-owl-gap="0" data-owl-nav="false" data-owl-dots="false" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="1000" data-owl-mousedrag="on">
+                                {{-- <div class="owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="5000"
+                                    data-owl-gap="0" data-owl-nav="false" data-owl-dots="false" data-owl-item="1"
+                                    data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
+                                    data-owl-duration="1000" data-owl-mousedrag="on"> --}}
 
                                     <div class="ps-product-group">
 
-                                    	<!--=====================================
-										Product
-    									======================================-->  
+                                        <!--=====================================
+                      Product
+                ======================================-->
 
                                         <div class="ps-product--horizontal">
 
                                             <div class="ps-product__thumbnail">
-                                            	<a href="product-default.html">
-                                            		<img src="img/products/technology/1.jpg" alt="">
-                                            	</a>
+                                                <a href="product-default.html">
+                                                    <img src="img/products/technology/a_1_1.jpg" alt="">
+                                                </a>
                                             </div>
 
                                             <div class="ps-product__content">
 
-                                            	<a class="ps-product__title" href="product-default.html">Sound Intone I65 Earphone White Version</a>
+                                                <a class="ps-product__title" href="product-default.html">Cocos x12 UD</a>
 
                                                 <div class="ps-product__rating">
 
@@ -552,29 +568,29 @@
 
                                                 </div>
 
-                                                <p class="ps-product__price">105.30</p>
+                                                <p class="ps-product__price sale">$20.000 <del>$80.000</del></p>
 
                                             </div>
 
                                         </div><!-- End Product -->
 
                                         <!--=====================================
-										Product
-    									======================================-->  
+                      Product
+                ======================================-->
 
                                         <div class="ps-product--horizontal">
 
                                             <div class="ps-product__thumbnail">
 
-                                            	<a href="product-default.html">
-                                            		<img src="img/products/technology/2.jpg" alt="">
-                                            	</a>
+                                                <a href="product-default.html">
+                                                    <img src="img/products/technology/b_1_3.jpg" alt="">
+                                                </a>
 
                                             </div>
 
                                             <div class="ps-product__content">
 
-                                            	<a class="ps-product__title" href="product-default.html">Beat Spill 2.0 Wireless Speaker – White</a>
+                                                <a class="ps-product__title" href="product-default.html">Caja de platananos x8 UD</a>
 
                                                 <div class="ps-product__rating">
 
@@ -589,63 +605,27 @@
 
                                                 </div>
 
-                                                <p class="ps-product__price">$125.00 <del>$135.00 </del></p>
+                                                <p class="ps-product__price sale">$20.000 <del>$30.000 </del></p>
 
                                             </div>
 
                                         </div><!-- End Product -->
 
                                         <!--=====================================
-										Product
-    									======================================-->  
+                      Product
+                ======================================-->
 
                                         <div class="ps-product--horizontal">
 
                                             <div class="ps-product__thumbnail">
-
-                                            	<a href="product-default.html">
-                                            		<img src="img/products/technology/3.jpg" alt="">
-                                            	</a>
-
+                                                <a href="product-default.html">
+                                                    <img src="img/products/technology/a_1_1.jpg" alt="">
+                                                </a>
                                             </div>
 
                                             <div class="ps-product__content">
 
-                                            	<a class="ps-product__title" href="product-default.html">ASUS Chromebook Flip – 10.2 Inch</a>
-
-                                                <div class="ps-product__rating">
-
-                                                    <select class="ps-rating" data-read-only="true">
-                                                        <option value="1">1</option>
-                                                        <option value="1">2</option>
-                                                        <option value="1">3</option>
-                                                        <option value="1">4</option>
-                                                        <option value="2">5</option>
-                                                    </select>
-                                                    <span>02</span>
-
-                                                </div>
-
-                                                <p class="ps-product__price sale">$990.00 <del>$1250.00 </del></p>
-
-                                            </div>
-
-                                        </div><!-- End Product -->
-
-                                        <!--=====================================
-										Product
-    									======================================-->  
-
-                                        <div class="ps-product--horizontal">
-
-                                            <div class="ps-product__thumbnail">
-                                            	<a href="product-default.html">
-                                            		<img src="img/products/technology/4.jpg" alt="">
-                                            	</a>
-                                            </div>
-
-                                            <div class="ps-product__content">
-                                            	<a class="ps-product__title" href="product-default.html">Apple Macbook Retina Display 12”</a>
+                                                <a class="ps-product__title" href="product-default.html">Cocos x12 UD</a>
 
                                                 <div class="ps-product__rating">
 
@@ -657,11 +637,48 @@
                                                         <option value="2">5</option>
                                                     </select>
 
-                                                    <span>04</span>
+                                                    <span>01</span>
 
                                                 </div>
 
-                                                <p class="ps-product__price">$1090.00 <del>$1550.00 </del></p>
+                                                <p class="ps-product__price sale">$20.000 <del>$80.000</del></p>
+
+                                            </div>
+
+                                        </div><!-- End Product -->
+
+                                        <!--=====================================
+                      Product
+                ======================================-->
+
+                                        <div class="ps-product--horizontal">
+
+                                            <div class="ps-product__thumbnail">
+
+                                                <a href="product-default.html">
+                                                    <img src="img/products/technology/b_1_3.jpg" alt="">
+                                                </a>
+
+                                            </div>
+
+                                            <div class="ps-product__content">
+
+                                                <a class="ps-product__title" href="product-default.html">Caja de platananos x8 UD</a>
+
+                                                <div class="ps-product__rating">
+
+                                                    <select class="ps-rating" data-read-only="true">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="2">5</option>
+                                                    </select>
+                                                    <span>01</span>
+
+                                                </div>
+
+                                                <p class="ps-product__price sale">$20.000 <del>$30.000 </del></p>
 
                                             </div>
 
@@ -669,153 +686,13 @@
 
                                     </div><!-- End Product Group -->
 
-                                    <div class="ps-product-group">
-
-                                    	<!--=====================================
-										Product
-    									======================================-->  
-
-                                        <div class="ps-product--horizontal">
-
-                                            <div class="ps-product__thumbnail">
-                                            	<a href="product-default.html"><img src="img/products/technology/3.jpg" alt=""></a>
-                                            </div>
-
-                                            <div class="ps-product__content">
-
-                                            	<a class="ps-product__title" href="product-default.html">ASUS Chromebook Flip – 10.2 Inch</a>
-
-                                                <div class="ps-product__rating">
-
-                                                    <select class="ps-rating" data-read-only="true">
-                                                        <option value="1">1</option>
-                                                        <option value="1">2</option>
-                                                        <option value="1">3</option>
-                                                        <option value="1">4</option>
-                                                        <option value="2">5</option>
-                                                    </select>
-
-                                                    <span>02</span>
-
-                                                </div>
-
-                                                <p class="ps-product__price sale">$990.00 <del>$1250.00 </del></p>
-
-                                            </div>
-
-                                        </div><!-- End Product -->
-
-                                        <!--=====================================
-										Product
-    									======================================-->  
-
-                                        <div class="ps-product--horizontal">
-
-                                            <div class="ps-product__thumbnail">
-
-                                            	<a href="product-default.html">
-                                            		<img src="img/products/technology/4.jpg" alt="">
-                                            	</a>
-
-                                            </div>
-
-                                            <div class="ps-product__content">
-
-                                            	<a class="ps-product__title" href="product-default.html">Apple Macbook Retina Display 12”</a>
-
-                                                <div class="ps-product__rating">
-
-                                                    <select class="ps-rating" data-read-only="true">
-                                                        <option value="1">1</option>
-                                                        <option value="1">2</option>
-                                                        <option value="1">3</option>
-                                                        <option value="1">4</option>
-                                                        <option value="2">5</option>
-                                                    </select>
-
-                                                    <span>04</span>
-                                                </div>
-
-                                                <p class="ps-product__price">$1090.00 <del>$1550.00 </del></p>
-
-                                            </div>
-
-                                        </div><!-- End Product -->
-
-                                        <!--=====================================
-										Product
-    									======================================-->  
-
-                                        <div class="ps-product--horizontal">
-
-                                            <div class="ps-product__thumbnail">
-
-                                            	<a href="product-default.html">
-                                            		<img src="img/products/technology/5.jpg" alt="">
-                                            	</a>
-
-                                            </div>
-
-                                            <div class="ps-product__content">
-                                            	<a class="ps-product__title" href="product-default.html">Samsung Gear VR Virtual Reality Headset</a>
-
-                                                <div class="ps-product__rating">
-                                                    <select class="ps-rating" data-read-only="true">
-                                                        <option value="1">1</option>
-                                                        <option value="1">2</option>
-                                                        <option value="1">3</option>
-                                                        <option value="1">4</option>
-                                                        <option value="2">5</option>
-                                                    </select>
-                                                    <span>01</span>
-                                                </div>
-
-                                                <p class="ps-product__price">$85.00</p>
-
-                                            </div>
-
-                                        </div><!-- End Product -->
-
-                                        <!--=====================================
-										Product
-    									======================================-->  
-
-                                        <div class="ps-product--horizontal">
-
-                                            <div class="ps-product__thumbnail">
-                                            	<a href="product-default.html">
-                                            		<img src="img/products/technology/6.jpg" alt="">
-                                            	</a>
-                                            </div>
-
-                                            <div class="ps-product__content">
-                                            	<a class="ps-product__title" href="product-default.html">Apple iPhone Retina 6s Plus 64GB</a>
-
-                                                <div class="ps-product__rating">
-                                                    <select class="ps-rating" data-read-only="true">
-                                                        <option value="1">1</option>
-                                                        <option value="1">2</option>
-                                                        <option value="1">3</option>
-                                                        <option value="1">4</option>
-                                                        <option value="2">5</option>
-                                                    </select><span>01</span>
-                                                </div>
-
-                                                <p class="ps-product__price">$950.60</p>
-
-                                            </div>
-
-                                        </div><!-- End Product -->
-
-                                    </div><!-- End Product Group -->
-
-                                </div>
+                                {{-- </div> --}}
 
                             </div>
 
-                        </aside><!-- End Aside --> 
+                        </aside><!-- End Aside -->
 
-                    </div><!-- End Columns --> 
+                    </div><!-- End Columns -->
 
                 </div>
 
@@ -824,158 +701,141 @@
         </div><!-- End Home Deal Hot -->
 
         <!--=====================================
-		Top Categoríes
-		======================================-->  
+              Top Categoríes
+              ======================================-->
 
         <div class="ps-top-categories">
 
             <div class="container">
 
-                <h3>Top categories of the month</h3>
+                <h3>Principales categorías del mes</h3>
 
                 <div class="row">
 
                     <div class="col-xl-2 col-lg-3 col-sm-4 col-6 ">
                         <div class="ps-block--category">
-                        	<a class="ps-block__overlay" href="shop-default.html"></a>
-                        	<img src="img/categories/1.jpg" alt="">
-                            <p>Electronics</p>
+                            <a class="ps-block__overlay" href="shop-default.html"></a>
+                            <img src="img/categories/a_1_1.jpg" alt="">
+                            <p>Frutas neutras</p>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-4 col-6 ">
                         <div class="ps-block--category">
-                        	<a class="ps-block__overlay" href="shop-default.html"></a>
-                        	<img src="img/categories/2.jpg" alt="">
-                            <p>Clothings</p>
+                            <a class="ps-block__overlay" href="shop-default.html"></a>
+                            <img src="img/categories/b_1_3.jpg" alt="">
+                            <p>Frutas dulces</p>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-4 col-6 ">
                         <div class="ps-block--category">
-                        	<a class="ps-block__overlay" href="shop-default.html"></a>
-                        	<img src="img/categories/3.jpg" alt="">
-                            <p>Computers</p>
+                            <a class="ps-block__overlay" href="shop-default.html"></a>
+                            <img src="img/categories/c_1_1.jpg" alt="">
+                            <p>Raiz</p>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-4 col-6 ">
                         <div class="ps-block--category">
-                        	<a class="ps-block__overlay" href="shop-default.html"></a>
-                        	<img src="img/categories/4.jpg" alt="">
-                            <p>Home &amp; Kitchen</p>
+                            <a class="ps-block__overlay" href="shop-default.html"></a>
+                            <img src="img/categories/d_1_1.jpg" alt="">
+                            <p>Hoja</p>
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-3 col-sm-4 col-6 ">
-                        <div class="ps-block--category">
-                        	<a class="ps-block__overlay" href="shop-default.html"></a>
-                        	<img src="img/categories/5.jpg" alt="">
-                            <p>Health &amp; Beauty</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-sm-4 col-6 ">
-                        <div class="ps-block--category">
-                        	<a class="ps-block__overlay" href="shop-default.html"></a>
-                        	<img src="img/categories/6.jpg" alt="">
-                            <p>Health &amp; Beauty</p>
-                        </div>
-                    </div>
 
                 </div>
             </div>
 
         </div><!-- End Top Categories -->
 
-	</div><!-- End Homepage 6-->
+    </div><!-- End Homepage 6-->
 
- 	<!--=====================================
-	Section Gray
-	======================================-->  
+    <!--=====================================
+             Section Gray
+             ======================================-->
 
-	<div class="ps-section--gray">
+    <div class="ps-section--gray">
 
         <div class="container">
 
-        	<!--=====================================
-			Products of category
-			======================================-->  
+            <!--=====================================
+               Products of category
+               ======================================-->
 
             <div class="ps-block--products-of-category">
 
-            	<!--=====================================
-				Menu subcategory
-				======================================-->  
+                <!--=====================================
+                Menu subcategory
+                ======================================-->
 
                 <div class="ps-block__categories">
 
-                    <h3>Clothing & <br> Apparel</h3>
+                    <h3>Frutas neutras</h3>
 
-                        <ul>
-                            <li><a href="#">Best Seller</a></li>
-                            <li><a href="#">New Arrivals</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Girls</a></li>
-                            <li><a href="#">Boys</a></li>
-                            <li><a href="#">Baby</a></li>
-                            <li><a href="#">Sales & Deals</a></li>
-                        </ul>
+                    <ul>
+                        <li><a href="#">Cocos</a></li>
+                        <li><a href="#">Nuez</a></li>
+                        <li><a href="#">Almendras</a></li>
+                    </ul>
 
-                        <a class="ps-block__more-link" href="#">View All</a>
+                    <a class="ps-block__more-link" href="#">Ver todo</a>
 
                 </div>
 
                 <!--=====================================
-				Vertical Slider Category
-				======================================-->  
+                Vertical Slider Category
+                ======================================-->
 
-                <div class="ps-block__slider">
+                {{-- <div class="ps-block__slider">
 
-                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="500" data-owl-mousedrag="off">
+                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true"
+                        data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1"
+                        data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
+                        data-owl-duration="500" data-owl-mousedrag="off">
 
-                    	<a href="#">
+                        <a href="#">
 
-                    		<img src="img/slider/vertical/clothing-1.jpg" alt="">
+                            <img src="img/slider/vertical/clothing-1.jpg" alt="">
 
-                    	</a>
+                        </a>
 
-                    	<a href="#">
+                        <a href="#">
 
-                    		<img src="img/slider/vertical/clothing-2.jpg" alt="">
+                            <img src="img/slider/vertical/clothing-2.jpg" alt="">
 
-                    	</a>
+                        </a>
 
-                    	<a href="#">
+                        <a href="#">
 
-                    		<img src="img/slider/vertical/clothing-3.jpg" alt="">
+                            <img src="img/slider/vertical/clothing-3.jpg" alt="">
 
-                    	</a>
+                        </a>
 
                     </div>
 
-                </div>
+                </div> --}}
 
                 <!--=====================================
-				Block Product Box
-				======================================-->  
+                Block Product Box
+                ======================================-->
 
                 <div class="ps-block__product-box">
-					
-					<!--=====================================
-					Product Simple
-					======================================--> 
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/clothing/1.jpg" alt="">
+                                <img src="img/products/clothing/1_3.jpg" alt="">
 
-                        	</a>
+                            </a>
 
                             <div class="ps-product__badge">-16%</div>
 
@@ -985,7 +845,7 @@
 
                             <div class="ps-product__content" data-mh="clothing">
 
-                            	<a class="ps-product__title" href="product-default.html">Herschel Leather Duffle Bag In Brown Color</a>
+                                <a class="ps-product__title" href="product-default.html">cocos x60 UD</a>
 
                                 <div class="ps-product__rating">
 
@@ -1003,7 +863,7 @@
 
                                 </div>
 
-                                <p class="ps-product__price sale">$567.99 <del>$670.00 </del></p>
+                                <p class="ps-product__price sale">$156.799 <del>$167.000 </del></p>
 
                             </div>
 
@@ -1012,18 +872,18 @@
                     </div> <!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/clothing/2.jpg" alt=""></a>
+                                <img src="img/products/clothing/1_1.jpg" alt=""></a>
 
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
+                            <div class="ps-product__badge out-stock">No hay stock</div>
 
                         </div>
 
@@ -1031,8 +891,8 @@
 
                             <div class="ps-product__content" data-mh="clothing">
 
-                            	<a class="ps-product__title" href="product-default.html">Unero Military Classical Backpack</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Nuez x50 UD</a>
+
                                 <div class="ps-product__rating">
 
                                     <select class="ps-rating" data-read-only="true">
@@ -1046,7 +906,7 @@
 
                                 </div>
 
-                                <p class="ps-product__price">$101.99</p>
+                                <p class="ps-product__price">$19.200</p>
 
                             </div>
 
@@ -1055,27 +915,27 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/clothing/3.jpg" alt=""></a>
+                                <img src="img/products/clothing/1_2.jpg" alt=""></a>
 
                             <div class="ps-product__badge">-25%</div>
-   
+
                         </div>
 
                         <div class="ps-product__container">
 
                             <div class="ps-product__content" data-mh="clothing">
 
-                            	<a class="ps-product__title" href="product-default.html">Rayban Rounded Sunglass Brown Color</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Almendras x60 UD</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -1087,7 +947,7 @@
                                     <span>02</span>
                                 </div>
 
-                                <p class="ps-product__price sale">$42.00 <del>$60.00 </del></p>
+                                <p class="ps-product__price sale">$42.000 <del>$60.000 </del></p>
 
                             </div>
 
@@ -1096,20 +956,20 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/clothing/4.jpg" alt="">
+                                <img src="img/products/clothing/1_3.jpg" alt="">
 
-                        	</a>
+                            </a>
 
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
+                            <div class="ps-product__badge">-16%</div>
 
                         </div>
 
@@ -1117,7 +977,53 @@
 
                             <div class="ps-product__content" data-mh="clothing">
 
-                            	<a class="ps-product__title" href="product-default.html">Sleeve Linen Blend Caro Pane Shirt</a>
+                                <a class="ps-product__title" href="product-default.html">cocos x60 UD</a>
+
+                                <div class="ps-product__rating">
+
+                                    <select class="ps-rating" data-read-only="true">
+
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+
+                                    </select>
+
+                                    <span>01</span>
+
+                                </div>
+
+                                <p class="ps-product__price sale">$156.799 <del>$167.000 </del></p>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!-- End Product Simple -->
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html">
+
+                                <img src="img/products/clothing/1_1.jpg" alt=""></a>
+
+                            <div class="ps-product__badge out-stock">No hay stock</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="clothing">
+
+                                <a class="ps-product__title" href="product-default.html">Nuez x50 UD</a>
 
                                 <div class="ps-product__rating">
 
@@ -1132,7 +1038,7 @@
 
                                 </div>
 
-                                <p class="ps-product__price">$320.00</p>
+                                <p class="ps-product__price">$19.200</p>
 
                             </div>
 
@@ -1141,18 +1047,18 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/clothing/5.jpg" alt=""></a>
+                                <img src="img/products/clothing/1_2.jpg" alt=""></a>
 
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>   
+                            <div class="ps-product__badge">-25%</div>
 
                         </div>
 
@@ -1160,47 +1066,7 @@
 
                             <div class="ps-product__content" data-mh="clothing">
 
-                            	<a class="ps-product__title" href="product-default.html">Men’s Sports Runnning Swim Board Shorts</a>
-                                
-                                <div class="ps-product__rating">
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select><span>01</span>
-                                </div>
-
-                                <p class="ps-product__price">$85.00</p>
-
-                            </div>
-
-                        </div>
-
-                    </div><!-- End Product Simple -->
-
-                    <!--=====================================
-					Product Simple
-					======================================--> 
-
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html">
-
-                        		<img src="img/products/clothing/6.jpg" alt=""></a>
-
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-
-                        </div>
-
-                        <div class="ps-product__container">
-
-                            <div class="ps-product__content" data-mh="clothing">
-
-                            	<a class="ps-product__title" href="product-default.html">Paul’s Smith Sneaker InWhite Color</a>
+                                <a class="ps-product__title" href="product-default.html">Almendras x60 UD</a>
 
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
@@ -1210,47 +1076,41 @@
                                         <option value="1">4</option>
                                         <option value="2">5</option>
                                     </select>
-                                    <span>01</span>
+                                    <span>02</span>
                                 </div>
 
-                                <p class="ps-product__price">$92.00</p>
+                                <p class="ps-product__price sale">$42.000 <del>$60.000 </del></p>
 
                             </div>
 
                         </div>
 
                     </div><!-- End Product Simple -->
+
+
 
                 </div><!-- End Block Product Box -->
-              
+
             </div><!-- End Products of category -->
 
             <!--=====================================
-			Products of category
-			======================================-->  
+               Products of category
+               ======================================-->
 
             <div class="ps-block--products-of-category">
 
-            	<!--=====================================
-				Menu subcategory
-				======================================--> 
+                <!--=====================================
+                Menu subcategory
+                ======================================-->
 
                 <div class="ps-block__categories">
 
-                    <h3>Computer & Techologies</h3>
+                    <h3>Frutas dulces</h3>
 
                     <ul>
-                        <li><a href="#">Best Seller</a></li>
-                        <li><a href="#">New Arrivals</a></li>
-                        <li><a href="#">Desktop PC</a></li>
-                        <li><a href="#">Laptop</a></li>
-                        <li><a href="#">Smartphones</a></li>
-                        <li><a href="#">Tablets</a></li>
-                        <li><a href="#">Storage & Memory</a></li>
-                        <li><a href="#">PC Component</a></li>
-                        <li><a href="#">Computer Accessories</a></li>
-                        <li><a href="#">Game Accessories</a></li>
-                        <li><a href="#">Sales & Deals</a></li>
+                        <li><a href="#">Bananos</a></li>
+                        <li><a href="#">Cereza</a></li>
+                        <li><a href="#">Melon</a></li>
 
                     </ul>
 
@@ -1259,48 +1119,51 @@
                 </div>
 
                 <!--=====================================
-				Vertical Slider Category
-				======================================-->  
+                Vertical Slider Category
+                ======================================-->
 
-                <div class="ps-block__slider">
+                {{-- <div class="ps-block__slider">
 
-                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="500" data-owl-mousedrag="off">
+                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true"
+                        data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1"
+                        data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
+                        data-owl-duration="500" data-owl-mousedrag="off">
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/technology-1.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/technology-1.jpg" alt="">
+                        </a>
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/technology-2.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/technology-2.jpg" alt="">
+                        </a>
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/technology-3.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/technology-3.jpg" alt="">
+                        </a>
 
                     </div>
 
-                </div>
+                </div> --}}
 
                 <!--=====================================
-				Block Product Box
-				======================================-->  
+                Block Product Box
+                ======================================-->
 
                 <div class="ps-block__product-box">
 
-                	<!--=====================================
-					Product Simple
-					======================================--> 
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/technology/1.jpg" alt="">
+                                <img src="img/products/technology/1_1.jpg" alt="">
 
-                        	</a> 
+                            </a>
 
                         </div>
 
@@ -1308,7 +1171,7 @@
 
                             <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Sound Intone I65 Earphone White Version</a>
+                                <a class="ps-product__title" href="product-default.html">Caja de Bananos x8 UD</a>
 
                                 <div class="ps-product__rating">
 
@@ -1326,7 +1189,7 @@
 
                                 </div>
 
-                                <p class="ps-product__price">105.30</p>
+                                <p class="ps-product__price">40.000</p>
 
                             </div>
 
@@ -1335,16 +1198,16 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/technology/2.jpg" alt=""></a>
+                                <img src="img/products/technology/1_2.jpg" alt=""></a>
 
                             <div class="ps-product__badge out-stock">7%</div>
 
@@ -1354,8 +1217,8 @@
 
                             <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Beat Spill 2.0 Wireless Speaker – White</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Cereza x30 UD</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -1369,7 +1232,7 @@
 
                                 </div>
 
-                                <p class="ps-product__price">$125.00 <del>$135.00 </del></p>
+                                <p class="ps-product__price">$12.500 <del>$13.500 </del></p>
 
                             </div>
 
@@ -1378,18 +1241,18 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/technology/3.jpg" alt="">
+                                <img src="img/products/technology/1_3.jpg" alt="">
 
-                        	</a>
+                            </a>
 
                             <div class="ps-product__badge">-25%</div>
 
@@ -1399,8 +1262,8 @@
 
                             <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">ASUS Chromebook Flip – 10.2 Inch</a>
-                               
+                                <a class="ps-product__title" href="product-default.html">Melon x100 UD</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -1411,7 +1274,7 @@
                                     </select><span>02</span>
                                 </div>
 
-                                <p class="ps-product__price sale">$990.00 <del>$1250.00 </del></p>
+                                <p class="ps-product__price sale">$99.000 <del>$125.000 </del></p>
 
                             </div>
 
@@ -1420,36 +1283,44 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html"><img src="img/products/technology/4.jpg" alt=""></a>
+                            <a href="product-default.html">
 
-                            <div class="ps-product__badge">10%</div>
-                           
+                                <img src="img/products/technology/1_1.jpg" alt="">
+
+                            </a>
+
                         </div>
 
                         <div class="ps-product__container">
 
                             <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Apple Macbook Retina Display 12”</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Caja de Bananos x8 UD</a>
+
                                 <div class="ps-product__rating">
+
                                     <select class="ps-rating" data-read-only="true">
+
                                         <option value="1">1</option>
                                         <option value="1">2</option>
                                         <option value="1">3</option>
                                         <option value="1">4</option>
                                         <option value="2">5</option>
-                                    </select><span>04</span>
+
+                                    </select>
+
+                                    <span>01</span>
+
                                 </div>
 
-                                <p class="ps-product__price">$1090.00 <del>$1550.00 </del></p>
+                                <p class="ps-product__price">40.000</p>
 
                             </div>
 
@@ -1458,168 +1329,27 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/technology/5.jpg" alt="">
-                        	</a>
-               
+                            <a href="product-default.html">
+
+                                <img src="img/products/technology/1_2.jpg" alt=""></a>
+
+                            <div class="ps-product__badge out-stock">7%</div>
+
                         </div>
 
                         <div class="ps-product__container">
 
                             <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Samsung Gear VR Virtual Reality Headset</a>
-                                
-                                <div class="ps-product__rating">
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select><span>01</span>
-                                </div>
+                                <a class="ps-product__title" href="product-default.html">Cereza x30 UD</a>
 
-                                <p class="ps-product__price">$85.00</p>
-
-                            </div>
-
-                        </div>
-
-                    </div><!-- End Product Simple -->
-
-                    <!--=====================================
-					Product Simple
-					======================================--> 
-
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html">
-                        		<img src="img/products/technology/6.jpg" alt="">
-                        	</a>
-  
-                        </div>
-
-                        <div class="ps-product__container">
-
-                            <div class="ps-product__content" data-mh="technology">
-
-                            	<a class="ps-product__title" href="product-default.html">Apple iPhone Retina 6s Plus 64GB</a>
-
-                                <div class="ps-product__rating">
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select><span>01</span>
-                                </div>
-
-                                <p class="ps-product__price">$950.60</p>
-
-                            </div>
-
-                        </div>
-
-                    </div><!-- End Product Simple -->
-
-                </div><!-- End Block Product Box -->
-
-            </div><!-- End Products of category -->
-
-             <!--=====================================
-			Products of category
-			======================================-->  
-
-            <div class="ps-block--products-of-category">
-
-            	<!--=====================================
-				Menu subcategory
-				======================================--> 
-
-                <div class="ps-block__categories">
-
-                    <h3>Consumer Electronics</h3>
-
-                    <ul>
-                        <li><a href="shop-default.html">Best Seller</a></li>
-                        <li><a href="shop-default.html">New Arrivals</a></li>
-                        <li><a href="shop-default.html">TV Television</a></li>
-                        <li><a href="shop-default.html">Air Condition</a></li>
-                        <li><a href="shop-default.html">Washing Machine</a></li>
-                        <li><a href="shop-default.html">Microwave</a></li>
-                        <li><a href="shop-default.html">Refrigerator</a></li>
-                        <li><a href="shop-default.html">Office Electronic</a></li>
-                        <li><a href="shop-default.html">Car Electronic</a></li>
-                        <li><a href="shop-default.html">Sales & Deals</a></li>
-                    </ul>
-
-                    <a class="ps-block__more-link" href="#">View All</a>
-
-                </div>
-
-                <!--=====================================
-				Vertical Slider Category
-				======================================-->  
-
-                <div class="ps-block__slider">
-
-                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="500" data-owl-mousedrag="off">
-
-                    	<a href="#">
-                    		<img src="img/slider/vertical/electronic-1.jpg" alt="">
-                    	</a>
-
-                    	<a href="#">
-                    		<img src="img/slider/vertical/electronic-2.jpg" alt="">
-                    	</a>
-
-                    	<a href="#">
-                    		<img src="img/slider/vertical/electronic-3.jpg" alt="">
-                    	</a>
-
-                    </div>
-
-                </div>
-
-                <!--=====================================
-				Block Product Box
-				======================================-->  
-
-                <div class="ps-block__product-box">
-
-                	<!--=====================================
-					Product Simple
-					======================================--> 
-
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html">
-                        		<img src="img/products/electronic/1.jpg" alt="">
-                        	</a>
-
-                            <div class="ps-product__badge">-16%</div>
-                          
-                        </div>
-
-                        <div class="ps-product__container">
-
-                            <div class="ps-product__content" data-mh="technology">
-
-                            	<a class="ps-product__title" href="product-default.html">Marshall Kilburn Portable Wireless</a>
-                                
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -1630,9 +1360,10 @@
                                     </select>
 
                                     <span>01</span>
+
                                 </div>
 
-                                <p class="ps-product__price sale">$567.99 <del>$670.00 </del></p>
+                                <p class="ps-product__price">$12.500 <del>$13.500 </del></p>
 
                             </div>
 
@@ -1641,58 +1372,18 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
+                            <a href="product-default.html">
 
-                        		<img src="img/products/electronic/2.jpg" alt="">
+                                <img src="img/products/technology/1_3.jpg" alt="">
 
-                        	</a>
-
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
- 
-                        </div>
-
-                        <div class="ps-product__container">
-
-                            <div class="ps-product__content" data-mh="technology">
-
-                            	<a class="ps-product__title" href="product-default.html">Xbox One Wireless Controller Black Color</a>
-                                
-                                <div class="ps-product__rating">
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select><span>01</span>
-                                </div>
-
-                                <p class="ps-product__price">$101.99</p>
-
-                            </div>
-
-                        </div>
-
-                    </div><!-- End Product Simple -->
-
-                    <!--=====================================
-					Product Simple
-					======================================--> 
-
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html">
-                        		<img src="img/products/electronic/3.jpg" alt="">
-                        	</a>
+                            </a>
 
                             <div class="ps-product__badge">-25%</div>
 
@@ -1702,23 +1393,19 @@
 
                             <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Sound Intone I65 Earphone White Version</a>
-                                
-                                <div class="ps-product__rating">
+                                <a class="ps-product__title" href="product-default.html">Melon x100 UD</a>
 
+                                <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
                                         <option value="1">2</option>
                                         <option value="1">3</option>
                                         <option value="1">4</option>
                                         <option value="2">5</option>
-                                    </select>
-
-                                    <span>02</span>
-
+                                    </select><span>02</span>
                                 </div>
 
-                                <p class="ps-product__price sale">$42.00 <del>$60.00 </del></p>
+                                <p class="ps-product__price sale">$99.000 <del>$125.000 </del></p>
 
                             </div>
 
@@ -1726,213 +1413,80 @@
 
                     </div><!-- End Product Simple -->
 
-                    <!--=====================================
-					Product Simple
-					======================================--> 
 
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html"><img src="img/products/electronic/4.jpg" alt=""></a>
-
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-                           
-                        </div>
-
-                        <div class="ps-product__container">
-
-                            <div class="ps-product__content" data-mh="technology">
-
-                            	<a class="ps-product__title" href="product-default.html">Samsung Gear VR Virtual Reality Headset</a>
-
-                                <div class="ps-product__rating">
-
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select>
-
-                                    <span>01</span>
-
-                                </div>
-
-                                <p class="ps-product__price">$320.00</p>
-
-                            </div>
-
-                        </div>
-
-                    </div><!-- End Product Simple -->
-
-                    <!--=====================================
-					Product Simple
-					======================================--> 
-
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html">
-
-                        		<img src="img/products/electronic/5.jpg" alt="">
-
-                        	</a>
-
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-
-                        </div>
-                        <div class="ps-product__container">
-                            <div class="ps-product__content" data-mh="technology">
-
-                            	<a class="ps-product__title" href="product-default.html">Samsung UHD TV 24inch</a>
-
-                                <div class="ps-product__rating">
-
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select>
-
-                                    <span>01</span>
-
-                                </div>
-
-                                <p class="ps-product__price">$85.00</p>
-
-                            </div>
-
-                        </div>
-
-                    </div><!-- End Product Simple -->
-
-                    <!--=====================================
-					Product Simple
-					======================================--> 
-
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html">
-
-                        		<img src="img/products/electronic/6.jpg" alt="">
-
-                        	</a>
-
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-
-                        </div>
-
-                        <div class="ps-product__container">
-
-                            <div class="ps-product__content" data-mh="technology">
-
-                            	<a class="ps-product__title" href="product-default.html">EPSION Plaster Printer</a>
-
-                                <div class="ps-product__rating">
-
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select>
-
-                                    <span>01</span>
-
-                                </div>
-
-                                <p class="ps-product__price">$92.00</p>
-
-                            </div>
-
-                        </div>
-
-                    </div><!-- End Product Simple -->
 
                 </div><!-- End Block Product Box -->
 
             </div><!-- End Products of category -->
 
             <!--=====================================
-			Products of category
-			======================================-->  
+               Products of category
+               ======================================-->
 
             <div class="ps-block--products-of-category">
 
-            	<!--=====================================
-				Menu subcategory
-				======================================--> 
+                <!--=====================================
+                Menu subcategory
+                ======================================-->
 
                 <div class="ps-block__categories">
 
-                    <h3>Home, Garden & Kitchen</h3>
+                    <h3>Raiz</h3>
 
                     <ul>
-                        <li><a href="shop-default.html">Best Seller</a></li>
-                        <li><a href="shop-default.html">New Arrivals</a></li>
-                        <li><a href="shop-default.html">Furniture</a></li>
-                        <li><a href="shop-default.html">Home Decor</a></li>
-                        <li><a href="shop-default.html">Cookware</a></li>
-                        <li><a href="shop-default.html">Utensils & Gadget</a></li>
-                        <li><a href="shop-default.html">Garden Tools</a></li>
-                        <li><a href="shop-default.html">Acessesories</a></li>
-                        <li><a href="shop-default.html">Sales & Deals</a></li>
+                        <li><a href="shop-default.html">Zanahorias</a></li>
+                        <li><a href="shop-default.html">Rábanos</a></li>
+                        <li><a href="shop-default.html">Nabos</a></li>
                     </ul>
 
-                    <a class="ps-block__more-link" href="#">View All</a>
+                    <a class="ps-block__more-link" href="#">Ver todo</a>
 
                 </div>
 
                 <!--=====================================
-				Vertical Slider Category
-				======================================-->  
+                Vertical Slider Category
+                ======================================-->
 
-                <div class="ps-block__slider">
+                {{-- <div class="ps-block__slider">
 
-                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="500" data-owl-mousedrag="off">
+                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true"
+                        data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1"
+                        data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
+                        data-owl-duration="500" data-owl-mousedrag="off">
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/kitchen-1.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/electronic-1.jpg" alt="">
+                        </a>
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/kitchen-2.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/electronic-2.jpg" alt="">
+                        </a>
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/kitchen-3.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/electronic-3.jpg" alt="">
+                        </a>
 
                     </div>
 
-                </div>
+                </div> --}}
 
                 <!--=====================================
-				Block Product Box
-				======================================-->  
+                Block Product Box
+                ======================================-->
 
                 <div class="ps-block__product-box">
 
-                	<!--=====================================
-					Product Simple
-					======================================--> 
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/home/1.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
+                                <img src="img/products/electronic/1_1.jpg" alt="">
+                            </a>
 
                             <div class="ps-product__badge">-16%</div>
 
@@ -1940,10 +1494,10 @@
 
                         <div class="ps-product__container">
 
-                            <div class="ps-product__content" data-mh="garden">
+                            <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Korea Long Sofa Fabric In Blue Navy Color</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Zanahoria x30 UD</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -1954,10 +1508,9 @@
                                     </select>
 
                                     <span>01</span>
-
                                 </div>
 
-                                <p class="ps-product__price sale">$567.99 <del>$670.00 </del></p>
+                                <p class="ps-product__price sale">$56.799 <del>$67.000 </del></p>
 
                             </div>
 
@@ -1966,41 +1519,40 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/home/2.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
 
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-                         
+                                <img src="img/products/electronic/1_2.jpg" alt="">
+
+                            </a>
+
+                            <div class="ps-product__badge out-stock">No hay stock</div>
+
                         </div>
 
                         <div class="ps-product__container">
 
-                            <div class="ps-product__content" data-mh="garden">
+                            <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Aroma Rice Cooker</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Rábanos x12 UD</a>
+
                                 <div class="ps-product__rating">
-
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
                                         <option value="1">2</option>
                                         <option value="1">3</option>
                                         <option value="1">4</option>
                                         <option value="2">5</option>
-                                    </select>
-
-                                    <span>01</span>
+                                    </select><span>01</span>
                                 </div>
 
-                                <p class="ps-product__price">$101.99</p>
+                                <p class="ps-product__price">$10.199</p>
 
                             </div>
 
@@ -2009,27 +1561,27 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/home/3.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
+                                <img src="img/products/electronic/1_3.jpg" alt="">
+                            </a>
 
                             <div class="ps-product__badge">-25%</div>
-                        
+
                         </div>
 
                         <div class="ps-product__container">
 
-                            <div class="ps-product__content" data-mh="garden">
+                            <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Simple Plastice Chair In White Color</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Nabos x45 UD</a>
+
                                 <div class="ps-product__rating">
 
                                     <select class="ps-rating" data-read-only="true">
@@ -2041,9 +1593,10 @@
                                     </select>
 
                                     <span>02</span>
+
                                 </div>
 
-                                <p class="ps-product__price sale">$42.00 <del>$60.00 </del></p>
+                                <p class="ps-product__price sale">$42.000 <del>$60.000 </del></p>
 
                             </div>
 
@@ -2052,29 +1605,28 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/home/4.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
+                                <img src="img/products/electronic/1_1.jpg" alt="">
+                            </a>
 
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-    
+                            <div class="ps-product__badge">-16%</div>
+
                         </div>
 
                         <div class="ps-product__container">
 
-                            <div class="ps-product__content" data-mh="garden">
+                            <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Korea Fabric Chair In Brown Colorr</a>
+                                <a class="ps-product__title" href="product-default.html">Zanahoria x30 UD</a>
 
                                 <div class="ps-product__rating">
-
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
                                         <option value="1">2</option>
@@ -2082,11 +1634,11 @@
                                         <option value="1">4</option>
                                         <option value="2">5</option>
                                     </select>
-                                    <span>01</span>
 
+                                    <span>01</span>
                                 </div>
 
-                                <p class="ps-product__price">$320.00</p>
+                                <p class="ps-product__price sale">$56.799 <del>$67.000 </del></p>
 
                             </div>
 
@@ -2095,27 +1647,29 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/home/5.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
 
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-  
+                                <img src="img/products/electronic/1_2.jpg" alt="">
+
+                            </a>
+
+                            <div class="ps-product__badge out-stock">No hay stock</div>
+
                         </div>
 
                         <div class="ps-product__container">
 
-                            <div class="ps-product__content" data-mh="garden">
+                            <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Set 14-Piece Knife From KichiKit</a>
-                               
+                                <a class="ps-product__title" href="product-default.html">Rábanos x12 UD</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -2126,7 +1680,7 @@
                                     </select><span>01</span>
                                 </div>
 
-                                <p class="ps-product__price">$85.00</p>
+                                <p class="ps-product__price">$10.199</p>
 
                             </div>
 
@@ -2135,28 +1689,29 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">                        		
-                        		<img src="img/products/home/6.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
+                                <img src="img/products/electronic/1_3.jpg" alt="">
+                            </a>
 
-                            <div class="ps-product__badge out-stock">Out Of Stock</div>
-                         
+                            <div class="ps-product__badge">-25%</div>
+
                         </div>
 
                         <div class="ps-product__container">
 
-                            <div class="ps-product__content" data-mh="garden">
+                            <div class="ps-product__content" data-mh="technology">
 
-                            	<a class="ps-product__title" href="product-default.html">Magic Bullet NutriBullet Pro 900 Series Blender</a>
+                                <a class="ps-product__title" href="product-default.html">Nabos x45 UD</a>
 
                                 <div class="ps-product__rating">
+
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
                                         <option value="1">2</option>
@@ -2165,103 +1720,423 @@
                                         <option value="2">5</option>
                                     </select>
 
-                                    <span>01</span>
+                                    <span>02</span>
 
                                 </div>
 
-                                <p class="ps-product__price">$92.00</p>
+                                <p class="ps-product__price sale">$42.000 <del>$60.000 </del></p>
 
                             </div>
 
                         </div>
 
                     </div><!-- End Product Simple -->
-         
+
+
+
                 </div><!-- End Block Product Box -->
 
             </div><!-- End Products of category -->
 
             <!--=====================================
-			Products of category
-			======================================-->  
+               Products of category
+               ======================================-->
 
             <div class="ps-block--products-of-category">
 
-            	<!--=====================================
-				Menu subcategory
-				======================================--> 
+                <!--=====================================
+                Menu subcategory
+                ======================================-->
 
                 <div class="ps-block__categories">
 
-                    <h3>Healthy & Beauty</h3>
-                    
+                    <h3>Hoja</h3>
+
                     <ul>
-                        <li><a href="shop-default.html">Best Seller</a></li>
-                        <li><a href="shop-default.html">New Arrivals</a></li>
-                        <li><a href="shop-default.html">Makeup</a></li>
-                        <li><a href="shop-default.html">Skin Care</a></li>
-                        <li><a href="shop-default.html">Hair Care</a></li>
-                        <li><a href="shop-default.html">Tools & Equipments</a></li>
-                        <li><a href="shop-default.html">Perfumer & Cologine</a></li>
-                        <li><a href="shop-default.html">Sales & Deals</a></li>
+                        <li><a href="shop-default.html">Coliflores</a></li>
+                        <li><a href="shop-default.html">Brócolis</a></li>
+                        <li><a href="shop-default.html">Alcachofas</a></li>
                     </ul>
 
-                    <a class="ps-block__more-link" href="#">View All</a>
+                    <a class="ps-block__more-link" href="#">Ver todo</a>
 
                 </div>
 
                 <!--=====================================
-				Vertical Slider Category
-				======================================-->  
-
+                Vertical Slider Category
+                ======================================-->
+{{--
                 <div class="ps-block__slider">
 
-                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1" data-owl-duration="500" data-owl-mousedrag="off">
+                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true"
+                        data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1"
+                        data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
+                        data-owl-duration="500" data-owl-mousedrag="off">
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/healthy-1.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/kitchen-1.jpg" alt="">
+                        </a>
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/healthy-2.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/kitchen-2.jpg" alt="">
+                        </a>
 
-                    	<a href="#">
-                    		<img src="img/slider/vertical/healthy-3.jpg" alt="">
-                    	</a>
+                        <a href="#">
+                            <img src="img/slider/vertical/kitchen-3.jpg" alt="">
+                        </a>
 
                     </div>
 
-                </div>
+                </div> --}}
 
                 <!--=====================================
-				Block Product Box
-				======================================-->  
+                Block Product Box
+                ======================================-->
 
                 <div class="ps-block__product-box">
 
-                	<!--=====================================
-					Product Simple
-					======================================--> 
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/healthy/1.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
+                                <img src="img/products/home/1_1.jpg" alt="">
+                            </a>
 
                             <div class="ps-product__badge">-16%</div>
- 
+
                         </div>
 
                         <div class="ps-product__container">
 
                             <div class="ps-product__content" data-mh="garden">
 
-                            	<a class="ps-product__title" href="product-default.html">Aveeno Moisturizing Body Shower 450ml</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Espinacas x6 UD</a>
+
+                                <div class="ps-product__rating">
+                                    <select class="ps-rating" data-read-only="true">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+                                    </select>
+
+                                    <span>01</span>
+
+                                </div>
+
+                                <p class="ps-product__price sale">$15.000 <del>$21.000 </del></p>
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Product Simple -->
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html">
+                                <img src="img/products/home/1_2.jpg" alt="">
+                            </a>
+
+                            <div class="ps-product__badge out-stock">No hay stock</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="garden">
+
+                                <a class="ps-product__title" href="product-default.html">Caja de rúculas 5Kg</a>
+
+                                <div class="ps-product__rating">
+
+                                    <select class="ps-rating" data-read-only="true">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+                                    </select>
+
+                                    <span>01</span>
+                                </div>
+
+                                <p class="ps-product__price">$15.000</p>
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Product Simple -->
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html">
+                                <img src="img/products/home/1_3.jpg" alt="">
+                            </a>
+
+                            <div class="ps-product__badge">-25%</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="garden">
+
+                                <a class="ps-product__title" href="product-default.html">Lechuga X30 UD</a>
+
+                                <div class="ps-product__rating">
+
+                                    <select class="ps-rating" data-read-only="true">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+                                    </select>
+
+                                    <span>02</span>
+                                </div>
+
+                                <p class="ps-product__price sale">$45.000 <del>$60.000 </del></p>
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Product Simple -->
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html">
+                                <img src="img/products/home/1_1.jpg" alt="">
+                            </a>
+
+                            <div class="ps-product__badge">-16%</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="garden">
+
+                                <a class="ps-product__title" href="product-default.html">Espinacas x6 UD</a>
+
+                                <div class="ps-product__rating">
+                                    <select class="ps-rating" data-read-only="true">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+                                    </select>
+
+                                    <span>01</span>
+
+                                </div>
+
+                                <p class="ps-product__price sale">$15.000 <del>$21.000 </del></p>
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Product Simple -->
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html">
+                                <img src="img/products/home/1_2.jpg" alt="">
+                            </a>
+
+                            <div class="ps-product__badge out-stock">No hay stock</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="garden">
+
+                                <a class="ps-product__title" href="product-default.html">Caja de rúculas 5Kg</a>
+
+                                <div class="ps-product__rating">
+
+                                    <select class="ps-rating" data-read-only="true">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+                                    </select>
+
+                                    <span>01</span>
+                                </div>
+
+                                <p class="ps-product__price">$15.000</p>
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Product Simple -->
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html">
+                                <img src="img/products/home/1_3.jpg" alt="">
+                            </a>
+
+                            <div class="ps-product__badge">-25%</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="garden">
+
+                                <a class="ps-product__title" href="product-default.html">Lechuga X30 UD</a>
+
+                                <div class="ps-product__rating">
+
+                                    <select class="ps-rating" data-read-only="true">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+                                    </select>
+
+                                    <span>02</span>
+                                </div>
+
+                                <p class="ps-product__price sale">$45.000 <del>$60.000 </del></p>
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Product Simple -->
+
+
+
+                </div><!-- End Block Product Box -->
+
+            </div><!-- End Products of category -->
+
+            <!--=====================================
+               Products of category
+               ======================================-->
+
+            <div class="ps-block--products-of-category">
+
+                <!--=====================================
+                Menu subcategory
+                ======================================-->
+
+                <div class="ps-block__categories">
+
+                    <h3>Tallo</h3>
+
+                    <ul>
+                        <li><a href="shop-default.html">Esparragos</a></li>
+                        <li><a href="shop-default.html">Puerros</a></li>
+                        <li><a href="shop-default.html">Apios</a></li>
+                    </ul>
+
+                    <a class="ps-block__more-link" href="#">Ver todo</a>
+
+                </div>
+
+                <!--=====================================
+                Vertical Slider Category
+                ======================================-->
+
+                {{-- <div class="ps-block__slider">
+
+                    <div class="ps-carousel--product-box owl-slider" data-owl-auto="true" data-owl-loop="true"
+                        data-owl-speed="7000" data-owl-gap="0" data-owl-nav="true" data-owl-dots="true" data-owl-item="1"
+                        data-owl-item-xs="1" data-owl-item-sm="1" data-owl-item-md="1" data-owl-item-lg="1"
+                        data-owl-duration="500" data-owl-mousedrag="off">
+
+                        <a href="#">
+                            <img src="img/slider/vertical/healthy-1.jpg" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="img/slider/vertical/healthy-2.jpg" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="img/slider/vertical/healthy-3.jpg" alt="">
+                        </a>
+
+                    </div>
+
+                </div> --}}
+
+                <!--=====================================
+                Block Product Box
+                ======================================-->
+
+                <div class="ps-block__product-box">
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html">
+                                <img src="img/products/healthy/1_1.jpg" alt="">
+                            </a>
+
+                            <div class="ps-product__badge">-16%</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="garden">
+
+                                <a class="ps-product__title" href="product-default.html">Esparragos x6 UD</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -2274,7 +2149,7 @@
                                     <span>01</span>
                                 </div>
 
-                                <p class="ps-product__price sale">$47.99 <del>$59.00 </del></p>
+                                <p class="ps-product__price sale">$14.000 <del>$26.000 </del></p>
 
                             </div>
 
@@ -2283,14 +2158,14 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html"><img src="img/products/healthy/2.jpg" alt=""></a>
+                            <a href="product-default.html"><img src="img/products/healthy/1_2.jpg" alt=""></a>
 
                         </div>
 
@@ -2298,9 +2173,9 @@
 
                             <div class="ps-product__content" data-mh="garden">
 
-                            	<a class="ps-product__title" href="product-default.html">NYX Beauty Couton Pallete Makeup 12</a>
-                               
-                               <div class="ps-product__rating">
+                                <a class="ps-product__title" href="product-default.html">Puerros x50 UD</a>
+
+                                <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
                                         <option value="1">2</option>
@@ -2310,7 +2185,7 @@
                                     </select><span>01</span>
                                 </div>
 
-                                <p class="ps-product__price">$101.99</p>
+                                <p class="ps-product__price">$40.000</p>
 
                             </div>
 
@@ -2319,25 +2194,25 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html"><img src="img/products/healthy/3.jpg" alt=""></a>
+                            <a href="product-default.html"><img src="img/products/healthy/1_3.jpg" alt=""></a>
 
                             <div class="ps-product__badge">-25%</div>
-                          
+
                         </div>
 
                         <div class="ps-product__container">
 
                             <div class="ps-product__content" data-mh="garden">
 
-                            	<a class="ps-product__title" href="product-default.html">Baxter Care Hair Kit For Bearded Mens</a>
-                                
+                                <a class="ps-product__title" href="product-default.html">Apio 36 Lbs</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -2351,25 +2226,26 @@
 
                                 </div>
 
-                                <p class="ps-product__price sale">$42.00 <del>$60.00 </del></p>
+                                <p class="ps-product__price sale">$30.000 <del>$60.000 </del></p>
 
                             </div>
 
                         </div>
 
                     </div><!-- End Product Simple -->
-
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/healthy/4.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html">
+                                <img src="img/products/healthy/1_1.jpg" alt="">
+                            </a>
+
+                            <div class="ps-product__badge">-16%</div>
 
                         </div>
 
@@ -2377,8 +2253,8 @@
 
                             <div class="ps-product__content" data-mh="garden">
 
-                            	<a class="ps-product__title" href="product-default.html">Anna Sui Putty Mask Perfection</a>
-                               
+                                <a class="ps-product__title" href="product-default.html">Esparragos x6 UD</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -2391,7 +2267,7 @@
                                     <span>01</span>
                                 </div>
 
-                                <p class="ps-product__price">25.00</p>
+                                <p class="ps-product__price sale">$14.000 <del>$26.000 </del></p>
 
                             </div>
 
@@ -2400,16 +2276,14 @@
                     </div><!-- End Product Simple -->
 
                     <!--=====================================
-					Product Simple
-					======================================--> 
+                 Product Simple
+                 ======================================-->
 
                     <div class="ps-product ps-product--simple">
 
                         <div class="ps-product__thumbnail">
 
-                        	<a href="product-default.html">
-                        		<img src="img/products/healthy/5.jpg" alt="">
-                        	</a>
+                            <a href="product-default.html"><img src="img/products/healthy/1_2.jpg" alt=""></a>
 
                         </div>
 
@@ -2417,8 +2291,46 @@
 
                             <div class="ps-product__content" data-mh="garden">
 
-                            	<a class="ps-product__title" href="product-default.html">Set 30 Piece Korea StartSkin Natural Mask</a>
-                               
+                                <a class="ps-product__title" href="product-default.html">Puerros x50 UD</a>
+
+                                <div class="ps-product__rating">
+                                    <select class="ps-rating" data-read-only="true">
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+                                        <option value="2">5</option>
+                                    </select><span>01</span>
+                                </div>
+
+                                <p class="ps-product__price">$40.000</p>
+
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Product Simple -->
+
+                    <!--=====================================
+                 Product Simple
+                 ======================================-->
+
+                    <div class="ps-product ps-product--simple">
+
+                        <div class="ps-product__thumbnail">
+
+                            <a href="product-default.html"><img src="img/products/healthy/1_3.jpg" alt=""></a>
+
+                            <div class="ps-product__badge">-25%</div>
+
+                        </div>
+
+                        <div class="ps-product__container">
+
+                            <div class="ps-product__content" data-mh="garden">
+
+                                <a class="ps-product__title" href="product-default.html">Apio 36 Lbs</a>
+
                                 <div class="ps-product__rating">
                                     <select class="ps-rating" data-read-only="true">
                                         <option value="1">1</option>
@@ -2428,11 +2340,11 @@
                                         <option value="2">5</option>
                                     </select>
 
-                                    <span>01</span>
+                                    <span>02</span>
 
                                 </div>
 
-                                <p class="ps-product__price">$85.00</p>
+                                <p class="ps-product__price sale">$30.000 <del>$60.000 </del></p>
 
                             </div>
 
@@ -2440,46 +2352,7 @@
 
                     </div><!-- End Product Simple -->
 
-                    <!--=====================================
-					Product Simple
-					======================================--> 
 
-                    <div class="ps-product ps-product--simple">
-
-                        <div class="ps-product__thumbnail">
-
-                        	<a href="product-default.html">
-                        		<img src="img/products/healthy/6.jpg" alt="">
-                        	</a>
- 
-                        </div>
-
-                        <div class="ps-product__container">
-
-                            <div class="ps-product__content" data-mh="garden">
-
-                            	<a class="ps-product__title" href="product-default.html">Ciate Palemore Lipstick Bold Red Color</a>
-                                
-                                <div class="ps-product__rating">
-                                    <select class="ps-rating" data-read-only="true">
-                                        <option value="1">1</option>
-                                        <option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-                                        <option value="2">5</option>
-                                    </select>
-
-                                    <span>01</span>
-                                </div>
-
-                                <p class="ps-product__price">$92.00</p>
-
-                            </div>
-
-                        </div>
-
-                     </div><!-- End Product Simple -->
-         
                 </div><!-- End Block Product Box -->
 
             </div><!-- End Products of category -->
@@ -2488,273 +2361,13 @@
 
     </div><!-- End Section Gray-->
 
-    <!--=====================================
-	Newletter
-	======================================-->  
 
-    <div class="ps-newsletter">
-
-        <div class="container">
-
-            <form class="ps-form--newsletter" action="do_action" method="post">
-
-                <div class="row">
-
-                    <div class="col-xl-5 col-12 ">
-                        <div class="ps-form__left">
-                            <h3>Newsletter</h3>
-                            <p>Subcribe to get information about products and coupons</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-7 col-12 ">
-
-                        <div class="ps-form__right">
-
-                            <div class="form-group--nest">
-
-                                <input class="form-control" type="email" placeholder="Email address">
-                                <button class="ps-btn">Subscribe</button>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </form>
-
-        </div>
-
-    </div>
 
     <!--=====================================
-	Footer
-	======================================-->  
+                PopUp
+                ======================================-->
 
-    <footer class="ps-footer">
-
-        <div class="container">
-
-            <div class="ps-footer__widgets">
-
-            	<!--=====================================
-				Contact us
-				======================================-->  
-
-                <aside class="widget widget_footer widget_contact-us">
-
-                    <h4 class="widget-title">Contact us</h4>
-
-                    <div class="widget_content">
-
-                        <p>Call us 24/7</p>
-                        <h3>1800 97 97 69</h3>
-                        <p>502 New Design Str, Melbourne, Australia <br>
-                        	<a href="mailto:contact@marketplace.co">contact@marketplace.co</a>
-                    	</p>
-
-                        <ul class="ps-list--social">
-                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a class="google-plus" href="#"><i class="fab fa-youtube"></i></a></li>
-                            <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-
-                    </div>
-
-                </aside>
-
-                <!--=====================================
-				Quick Links
-				======================================-->  
-
-                <aside class="widget widget_footer">
-
-                    <h4 class="widget-title">Quick links</h4>
-
-                    <ul class="ps-list--link">
-
-                        <li><a href="#">Policy</a></li>
-
-                        <li><a href="#">Term &amp; Condition</a></li>
-
-                        <li><a href="#">Shipping</a></li>
-
-                        <li><a href="#">Return</a></li>
-
-                        <li><a href="faqs.html">FAQs</a></li>
-
-                    </ul>
-
-                </aside>
-
-                <!--=====================================
-				Company
-				======================================-->  
-
-                <aside class="widget widget_footer">
-
-                    <h4 class="widget-title">Company</h4>
-
-                    <ul class="ps-list--link">
-
-                        <li><a href="about-us.html">About Us</a></li>
-
-                        <li><a href="#">Affilate</a></li>
-
-                        <li><a href="#">Career</a></li>
-
-                        <li><a href="contact-us.html">Contact</a></li>
-
-                    </ul>
-
-                </aside>
-
-                <!--=====================================
-				Bussiness
-				======================================-->  
-
-                <aside class="widget widget_footer">
-
-                    <h4 class="widget-title">Bussiness</h4>
-
-                    <ul class="ps-list--link">
-
-                        <li><a href="#">Our Press</a></li>
-
-                        <li><a href="checkout.html">Checkout</a></li>
-
-                        <li><a href="my-account.html">My account</a></li>
-
-                        <li><a href="shop-default.html">Shop</a></li>
-
-                    </ul>
-
-                </aside>
-
-            </div>
-
-          	<!--=====================================
-			Categories Footer
-			======================================-->  
-
-            <div class="ps-footer__links">
-
-                <p>
-                	<strong>Consumer Electric:</strong>
-                	<a href="#">Air Conditioners</a>
-                	<a href="#">Audios &amp; Theaters</a>
-                	<a href="#">Car Electronics</a>
-                	<a href="#">Office Electronics</a>
-                	<a href="#">TV Televisions</a>
-                	<a href="#">Washing Machines</a>
-                </p>
-
-                <p>
-                	<strong>Clothing &amp; Apparel:</strong>
-                	<a href="#">Printers</a>
-                	<a href="#">Projectors</a>
-                	<a href="#">Scanners</a>
-                	<a href="#">Store &amp; Business</a>
-                	<a href="#">4K Ultra HD TVs</a>
-                	<a href="#">LED TVs</a>
-                	<a href="#">OLED TVs</a>
-                </p>
-
-                <p>
-                	<strong>Home, Garden &amp; Kitchen:</strong>
-                	<a href="#">Cookware</a>
-                	<a href="#">Decoration</a>
-                	<a href="#">Furniture</a>
-                	<a href="#">Garden Tools</a>
-                	<a href="#">Garden Equipments</a>
-                	<a href="#">Powers And Hand Tools</a>
-                	<a href="#">Utensil &amp; Gadget</a>
-                </p>
-
-                <p>
-                	<strong>Health &amp; Beauty:</strong>
-                	<a href="#">Hair Care</a>
-                	<a href="#">Decoration</a>
-                	<a href="#">Hair Care</a>
-                	<a href="#">Makeup</a>
-                	<a href="#">Body Shower</a>
-                	<a href="#">Skin Care</a>
-                	<a href="#">Cologine</a>
-                	<a href="#">Perfume</a>
-                </p>
-
-                <p>
-                	<strong>Jewelry &amp; Watches:</strong>
-                	<a href="#">Necklace</a>
-                	<a href="#">Pendant</a>
-                	<a href="#">Diamond Ring</a>
-                	<a href="#">Sliver Earing</a>
-                	<a href="#">Leather Watcher</a>
-                	<a href="#">Gucci</a>
-                </p>
-
-                <p>
-                	<strong>Computer &amp; Technologies:</strong>
-                	<a href="#">Desktop PC</a>
-                	<a href="#">Laptop</a>
-                	<a href="#">Smartphones</a>
-                	<a href="#">Tablet</a>
-                	<a href="#">Game Controller</a>
-                	<a href="#">Audio &amp; Video</a>
-                	<a href="#">Wireless Speaker</a>
-                	<a href="#">Done</a>
-                </p>
-
-            </div>
-
-            <!--=====================================
-			CopyRight - Payment method Footer
-			======================================-->  
-
-            <div class="ps-footer__copyright">
-
-                <p>© 2020 MarketPlace. All Rights Reserved</p>
-
-                <p>
-                	<span>We Using Safe Payment For:</span>
-
-                	<a href="#">
-                		<img src="img/payment-method/1.jpg" alt="">
-                	</a>
-
-                	<a href="#">
-                		<img src="img/payment-method/2.jpg" alt="">
-                	</a>
-
-                	<a href="#">
-                		<img src="img/payment-method/3.jpg" alt="">
-                	</a>
-
-                	<a href="#">
-                		<img src="img/payment-method/4.jpg" alt="">
-                	</a>
-
-                	<a href="#">
-                		<img src="img/payment-method/5.jpg" alt="">
-                	</a>
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-    <!--=====================================
-    PopUp
-    ======================================-->
-
-    <div class="ps-site-overlay"></div>
+    {{-- <div class="ps-site-overlay"></div>
 
     <div class="ps-popup" id="subscribe" data-time="500">
         <div class="ps-popup__content bg--cover" data-background="img/bg/subscribe.jpg" style="background: url(img/bg/subscribe.jpg);"><a class="ps-popup__close" href="#"><i class="icon-cross"></i></a>
@@ -2773,11 +2386,11 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div> --}}
 
-	<!--=====================================
-	JS PERSONALIZADO
-	======================================-->
+    <!--=====================================
+             JS PERSONALIZADO
+             ======================================-->
 
-	<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 @endsection

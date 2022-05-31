@@ -12,7 +12,7 @@
 
                 <li><a href="index.html">Home</a></li>
 
-                <li>Contact Us</li>
+                <li>Contactanos</li>
 
             </ul>
 
@@ -31,43 +31,43 @@
         <div class="ps-contact-info">
             <div class="container">
                 <div class="ps-section__header">
-                    <h3>Contact Us For Any Questions</h3>
+                    <h3>Contactanos para cualquier duda</h3>
                 </div>
                 <div class="ps-section__content">
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
                             <div class="ps-block--contact-info">
-                                <h4>Contact Directly</h4>
+                                <h4>Contacto directo</h4>
                                 <p><a href="#"><span class="__cf_email__" data-cfemail="f2919d9c86939186b29f9380869487808bdc919d9f">[email&#160;protected]</span></a><span>(+004) 912-3548-07</span></p>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
                             <div class="ps-block--contact-info">
-                                <h4>Head Quater</h4>
+                                <h4>Sede</h4>
                                 <p><span>17 Queen St, Southbank, Melbourne 10560, Australia</span></p>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
                             <div class="ps-block--contact-info">
-                                <h4>Work With Us</h4>
-                                <p><span>Send your CV to our email:</span><a href="#"><span class="__cf_email__" data-cfemail="b3d0d2c1d6d6c1f3ded2c1c7d5c6c1ca9dd0dcde">[email&#160;protected]</span></a></p>
+                                <h4>Trabaja con nosotros</h4>
+                                <p><span>Envianos tu hoja de vida:</span><a href="#"><span class="__cf_email__" data-cfemail="b3d0d2c1d6d6c1f3ded2c1c7d5c6c1ca9dd0dcde">[email&#160;protected]</span></a></p>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
                             <div class="ps-block--contact-info">
-                                <h4>Customer Service</h4>
+                                <h4>Servicio al cliente</h4>
                                 <p><a href="#"><span class="__cf_email__" data-cfemail="15766066617a7870677674677055787467617360676c3b767a78">[email&#160;protected]</span></a><span>(800) 843-2446</span></p>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
                             <div class="ps-block--contact-info">
-                                <h4>Media Relations</h4>
+                                <h4>Relaciones con los medios</h4>
                                 <p><a href="#"><span class="__cf_email__" data-cfemail="0c616968656d4c616d7e786a797e75226f6361">[email&#160;protected]</span></a><span>(801) 947-3564</span></p>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
                             <div class="ps-block--contact-info">
-                                <h4>Vendor Support</h4>
+                                <h4>Soporte al vendedor</h4>
                                 <p><a href="#"><span class="__cf_email__" data-cfemail="6d1b080309021f1e181d1d021f192d000c1f190b181f14430e0200">[email&#160;protected]</span></a><span>(801) 947-3100</span></p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
         <div class="ps-contact-form">
             <div class="container">
                 <form class="ps-form--contact-us" action="index.html" method="get">
-                    <h3>Get In Touch</h3>
+                    <h3>Ponte en contacto</h3>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                             <div class="form-group">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div class="form-group submit">
-                        <button class="ps-btn">Send message</button>
+                        <button class="ps-btn">Envianos un mensaje</button>
                     </div>
                 </form>
             </div>

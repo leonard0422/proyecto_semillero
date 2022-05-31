@@ -13,7 +13,7 @@
 
                 <li><a href="index.html">Home</a></li>
 
-                <li>Store List</li>
+                <li>Inventario</li>
 
             </ul>
 
@@ -31,7 +31,7 @@
 
             <div class="ps-section__header">
 
-                <h3>Store list</h3>
+                <h3>Inventario</h3>
 
             </div>
 
@@ -43,20 +43,20 @@
 
                         <div class="ps-section__header">
 
-                            <p>Showing 1 -8 of 22 results</p>                  
+                            <p>Mostrando 1 -8 de 22 resultados</p>                  
 
                             <form class="form-inline" action="/action">
                               
-                              <label for="search pr-3">Search: </label>
+                              <label for="search pr-3">Buscar: </label>
                               
                               <input type="search" class="ml-3" id="search" placeholder="Input here...">
 
                             </form>
 
                             <select class="ps-select">
-                                <option value="1">Sort by Newest: old to news</option>
-                                <option value="2">Sort by Newest: New to old</option>
-                                <option value="3">Sort by average rating: low to hight</option>
+                                <option value="1">Ordenar por Más reciente: viejo a nuevo</option>
+                                <option value="2">Ordenar por Más reciente: Nuevo a antiguo</option>
+                                <option value="3">Ordenar por calificación media: bajo a alto</option>
                             </select>
 
                         </div>
@@ -81,7 +81,7 @@
 
                                             </div>
 
-                                            <h4>GoPro</h4>
+                                            <h4>Tiendas don paco</h4>
 
                                             <div class="br-wrapper br-theme-fontawesome-stars">
 
@@ -97,7 +97,7 @@
  
                                         </div>
 
-                                            <p>325 Orchard, Buenos Aires, Formosa Argentina</p>
+                                            <p>Tocaima cra 11a n 1372</p>
 
                                             <ul class="ps-block__contact">
 
@@ -127,7 +127,7 @@
                                         <div class="ps-block__thumbnail bg--cover" style="background: url(img/vendor/store/2.jpg);"></div>
                                         <div class="ps-block__content">
                                             <div class="ps-block__author"><a class="ps-block__user" href="#"><img src="img/vendor/store/user/4.jpg" alt=""></a><a class="ps-btn" href="#">Visit Store</a></div>
-                                            <h4>Robert's Store</h4>
+                                            <h4>Tienda de roberto</h4>
                                             <div class="br-wrapper br-theme-fontawesome-stars"><select class="ps-rating" data-read-only="true" style="display: none;">
                                                 <option value="1">1</option>
                                                 <option value="1">2</option>
@@ -135,7 +135,7 @@
                                                 <option value="1">4</option>
                                                 <option value="2">5</option>
                                             </select></div>
-                                            <p>325 Orchard, Buenos Aires, Formosa Argentina</p>
+                                            <p>Tocaima, la salada</p>
                                             <ul class="ps-block__contact">
                                                 <li><i class="icon-envelope"></i><a href="mailto:contact@xhome.com">contact@xhome.com</a></li>
                                                 <li><i class="icon-telephone"></i> (+093) 77-637-3300</li>
@@ -149,7 +149,7 @@
                                         <div class="ps-block__thumbnail bg--cover" style="background: url(img/vendor/store/3.jpg);"></div>
                                         <div class="ps-block__content">
                                             <div class="ps-block__author"><a class="ps-block__user" href="#"><img src="img/vendor/store/user/5.jpg" alt=""></a><a class="ps-btn" href="#">Visit Store</a></div>
-                                            <h4>Youngshop</h4>
+                                            <h4>Frutas doña lucia</h4>
                                             <div class="br-wrapper br-theme-fontawesome-stars"><select class="ps-rating" data-read-only="true" style="display: none;">
                                                 <option value="1">1</option>
                                                 <option value="1">2</option>
@@ -157,29 +157,7 @@
                                                 <option value="1">4</option>
                                                 <option value="2">5</option>
                                             </select></div>
-                                            <p>325 Orchard, Buenos Aires, Formosa Argentina</p>
-                                            <ul class="ps-block__contact">
-                                                <li><i class="icon-envelope"></i><a href="mailto:contact@xhome.com">contact@xhome.com</a></li>
-                                                <li><i class="icon-telephone"></i> (+093) 77-637-3300</li>
-                                            </ul>
-                                            
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <article class="ps-block--store">
-                                        <div class="ps-block__thumbnail bg--cover" style="background: url(img/vendor/store/1.jpg);"></div>
-                                        <div class="ps-block__content">
-                                            <div class="ps-block__author"><a class="ps-block__user" href="#"><img src="img/vendor/store/user/5.jpg" alt=""></a><a class="ps-btn" href="#">Visit Store</a></div>
-                                            <h4>Global Offical</h4>
-                                            <div class="br-wrapper br-theme-fontawesome-stars"><select class="ps-rating" data-read-only="true" style="display: none;">
-                                                <option value="1">1</option>
-                                                <option value="1">2</option>
-                                                <option value="1">3</option>
-                                                <option value="1">4</option>
-                                                <option value="2">5</option>
-                                            </select></div>
-                                            <p>325 Orchard, Buenos Aires, Formosa Argentina</p>
+                                            <p>Tocaima</p>
                                             <ul class="ps-block__contact">
                                                 <li><i class="icon-envelope"></i><a href="mailto:contact@xhome.com">contact@xhome.com</a></li>
                                                 <li><i class="icon-telephone"></i> (+093) 77-637-3300</li>
@@ -194,7 +172,7 @@
                                     <li class="active"><a href="#">1</a></li>
                                     <li><a href="#">2</a></li>
                                     <li><a href="#">3</a></li>
-                                    <li><a href="#">Next Page<i class="icon-chevron-right"></i></a></li>
+                                    <li><a href="#">Proxima pagina<i class="icon-chevron-right"></i></a></li>
                                 </ul>
                             </div>
                         </div>

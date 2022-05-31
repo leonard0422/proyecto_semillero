@@ -1761,7 +1761,7 @@ button {
   border: none;
   font-weight: 600;
   border-radius: 4px;
-  background-color: #fcb800;
+  background-color: #0faa14;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   cursor: pointer;
@@ -3838,7 +3838,7 @@ textarea.form-control {
 
 .ps-block--site-features .ps-block__left i {
   font-size: 40px;
-  color: #fcb800;
+  color: #17E91D;
 }
 
 .ps-block--site-features .ps-block__right {
@@ -4226,7 +4226,7 @@ textarea.form-control {
 
 .ps-block--deal-hot {
   padding: 13px 30px 30px;
-  border: 2px solid #fcb800;
+  border: 2px solid #0FAA14;
 }
 
 .ps-block--deal-hot .ps-block__header {
@@ -7845,7 +7845,7 @@ textarea.form-control {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #000;
+  color: #fff;
 }
 
 .ps-carousel--nav-inside .owl-nav .owl-prev {
@@ -15070,7 +15070,7 @@ textarea.form-control {
 }
 
 .mega-menu .mega-menu__list li a:hover {
-  color: #fcb800;
+  color: #FF4640;
 }
 
 .menu {
@@ -15263,7 +15263,7 @@ textarea.form-control {
 
 .menu--product-categories .menu--dropdown {
   background-color: #fff;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #000000;
   min-width: 260px;
 }
 
@@ -15303,7 +15303,7 @@ textarea.form-control {
 }
 
 .menu--dropdown > li:hover {
-  background-color: #fcb800;
+  background-color: #17E91D;
 }
 
 .menu--dropdown > li:hover.has-mega-menu .mega-menu {
@@ -15615,7 +15615,7 @@ textarea.form-control {
 }
 
 .header--standard .ps-block--user-header a:hover {
-  color: #fcb800;
+  color: #FF4640;
 }
 
 .header--standard .header__top-links {
@@ -15741,7 +15741,7 @@ textarea.form-control {
 }
 
 .header--standard .ps-form--quick-search button {
-  background-color: #fcb800;
+  background-color: #0FAA14;
   color: #000;
 }
 
@@ -15763,6 +15763,7 @@ textarea.form-control {
 
 .header--standard .header__content {
   padding: 20px 0;
+  background-color: #17E91D;
 }
 
 .header--standard .header__content .menu--product-categories .menu__toggle:hover:before {
@@ -15781,10 +15782,11 @@ textarea.form-control {
 
 .header--standard .header__content .container > * {
   width: 100%;
+
 }
 
 .header--standard .header__extra span {
-  background-color: #fcb800;
+  background-color: #FF4640;
 }
 
 .header--standard .header__extra span i {

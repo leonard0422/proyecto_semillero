@@ -2,8 +2,8 @@
 @section('content')
   <!--=====================================
     Breadcrumb
-    ======================================-->  
-	
+    ======================================-->
+
 	<div class="ps-breadcrumb">
 
         <div class="container">
@@ -12,7 +12,7 @@
 
                 <li><a href="index.html">Home</a></li>
 
-                <li>Shopping cart</li>
+                <li>Carrito de compras</li>
 
             </ul>
 
@@ -22,7 +22,7 @@
 
     <!--=====================================
     Shopping Car
-    ======================================--> 
+    ======================================-->
 
     <div class="ps-section--shopping ps-shopping-cart">
 
@@ -30,7 +30,7 @@
 
             <div class="ps-section__header">
 
-                <h1>Shopping Cart</h1>
+                <h1>Carrito de compras</h1>
 
             </div>
 
@@ -44,11 +44,11 @@
 
                             <tr>
 
-                                <th>Product name</th>
-                                <th>PRICE</th>
-                                <th>SHIPPING</th>
-                                <th>QUANTITY</th>
-                                <th>TOTAL</th>
+                                <th>Nombre del producto</th>
+                                <th>Precio</th>
+                                <th>Impuesto</th>
+                                <th>Cantidad</th>
+                                <th>Total</th>
                                 <th></th>
 
                             </tr>
@@ -64,15 +64,15 @@
 
                                         <div class="ps-product__thumbnail">
 
-                                            <a href="product-default.html"><img src="img/products/electronic/1.jpg" alt=""></a>
+                                            <a href="product-default.html"><img src="img/products/electronic/a_1_1.jpg" alt=""></a>
 
                                         </div>
 
                                         <div class="ps-product__content">
 
-                                            <a href="product-default.html">Marshall Kilburn Wireless Bluetooth Speaker, Black (A4819189)</a>
+                                            <a href="product-default.html">Coco x12 UD</a>
 
-                                            <p>Sold By:<strong> YOUNG SHOP</strong></p>
+                                            <p>Vendido por:<strong>  COCOLERIOS S.A</strong></p>
 
                                         </div>
 
@@ -80,9 +80,9 @@
 
                                 </td>
 
-                                <td class="price">$205.00</td>
+                                <td class="price">$20.000</td>
 
-                                <td class="text-center">$2</td>
+                                <td class="text-center">$500</td>
 
 
                                 <td>
@@ -99,7 +99,7 @@
 
                                 </td>
 
-                                <td>$207.00</td>                             
+                                <td>$20.500</td>
 
                                 <td>
 
@@ -119,15 +119,15 @@
 
                                         <div class="ps-product__thumbnail">
 
-                                            <a href="product-default.html"><img src="img/products/clothing/2.jpg" alt=""></a>
+                                            <a href="product-default.html"><img src="img/products/clothing/b_1_3.jpg" alt=""></a>
 
                                         </div>
 
                                         <div class="ps-product__content">
 
-                                            <a href="product-default.html">Unero Military Classical Backpack</a>
+                                            <a href="product-default.html">Caja de bananos x8 UD</a>
 
-                                            <p>Sold By:<strong> YOUNG SHOP</strong></p>
+                                            <p>Vendido por:<strong> LA PLATANERIA</strong></p>
 
                                         </div>
 
@@ -135,9 +135,9 @@
 
                                 </td>
 
-                                <td class="price">$205.00</td>
+                                <td class="price">$20.000</td>
 
-                                <td class="text-center">$2</td>
+                                <td class="text-center">$500</td>
 
                                 <td>
 
@@ -149,7 +149,7 @@
 
                                 </td>
 
-                                <td>$207.00</td>
+                                <td>$20.500</td>
 
                                 <td>
                                     <a href="#">
@@ -168,23 +168,23 @@
                 <hr>
 
                 <div class="d-flex flex-row-reverse">
-                  <div class="p-2"><h3>Total <span>$414.00</span></h3></div>             
+                  <div class="p-2"><h3>Total <span>$41.000</span></h3></div>
                 </div>
 
                 <div class="ps-section__cart-actions">
 
                     <a class="ps-btn" href="categories.html.html">
-                        <i class="icon-arrow-left"></i> Back to Shop
+                        <i class="icon-arrow-left"></i> Volver a la tienda
                     </a>
 
                     <a class="ps-btn" href="checkout.html">
-                        Proceed to checkout <i class="icon-arrow-right"></i> 
+                        Proceder a pagar <i class="icon-arrow-right"></i>
                     </a>
 
                 </div>
 
-            </div> 
-            
+            </div>
+
         </div>
 
     </div>
@@ -193,9 +193,9 @@
 	Footer
 	======================================-->
 
-    <hr>  
+    <hr>
 
-    <footer class="ps-footer">
+    {{-- <footer class="ps-footer">
 
         <div class="container">
 
@@ -203,7 +203,7 @@
 
             	<!--=====================================
 				Contact us
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer widget_contact-us">
 
@@ -230,7 +230,7 @@
 
                 <!--=====================================
 				Quick Links
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -254,7 +254,7 @@
 
                 <!--=====================================
 				Company
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -276,7 +276,7 @@
 
                 <!--=====================================
 				Bussiness
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -300,7 +300,7 @@
 
           	<!--=====================================
 			Categories Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__links">
 
@@ -374,7 +374,7 @@
 
             <!--=====================================
 			CopyRight - Payment method Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__copyright">
 
@@ -409,7 +409,7 @@
 
         </div>
 
-    </footer>
+    </footer> --}}
 
 	<!--=====================================
 	JS PERSONALIZADO

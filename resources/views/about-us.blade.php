@@ -2,17 +2,17 @@
 @section('content')
  <!--=====================================
     Breadcrumb
-    ======================================-->  
-	
+    ======================================-->
+
 	<div class="ps-breadcrumb">
 
         <div class="container">
 
             <ul class="breadcrumb">
 
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.blade.php">Home</a></li>
 
-                <li>About Us</li>
+                <li>Acerca de nosotros</li>
 
             </ul>
 
@@ -22,40 +22,40 @@
 
     <!--=====================================
     About Us Content
-    ======================================--> 
+    ======================================-->
 
     <div class="ps-page--single" id="about-us"><img src="img/bg/about-us.jpg" alt="">
         <div class="ps-about-intro">
             <div class="container">
                 <div class="ps-section__header">
-                    <h4>Welcome to Martfury</h4>
-                    <h3>We connect millions of buyers and sellers around the world, empowering people & creating economic opportunity for all.</h3>
-                    <p>Within our markets, millions of people around the world connect, both online and offline, to make, sell and buy unique goods. We also offer a wide range of Seller Services and tools that help creative entrepreneurs start, manage and scale their businesses. Our mission is to reimagine commerce in ways that build a more fulfilling and lasting world, and we’re committed to using the power of business to strengthen communities and empower people.</p>
+                    <h4>Bienvenido al marketplace</h4>
+                    <h3>Conectamos a millones de compradores y vendedores en todo el mundo, empoderando a las personas y creando oportunidades económicas para todos.</h3>
+                    <p>Dentro de nuestros mercados, millones de personas en todo el mundo se conectan, tanto en línea como fuera de línea, para fabricar, vender y comprar productos únicos. También ofrecemos una amplia gama de Servicios y herramientas para vendedores que ayudan a los emprendedores creativos a iniciar, administrar y escalar sus negocios. Nuestra misión es reinventar el comercio de manera que construya un mundo más satisfactorio y duradero, y estamos comprometidos a utilizar el poder de los negocios para fortalecer las comunidades y empoderar a las personas.</p>
                 </div>
                 <div class="ps-section__content">
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
                             <div class="ps-block--icon-box"><i class="icon-cube"></i>
                                 <h4>45M</h4>
-                                <p>Product for sale</p>
+                                <p>Productos en venta</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
                             <div class="ps-block--icon-box"><i class="icon-store"></i>
                                 <h4>1.8M</h4>
-                                <p>Sellers Active on Martfury</p>
+                                <p>Vendedores activos en el marketplace</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
                             <div class="ps-block--icon-box"><i class="icon-bag2"></i>
                                 <h4>30.6M</h4>
-                                <p>Buyer active on Martfury</p>
+                                <p>Compradores activos en el marketplace</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
                             <div class="ps-block--icon-box"><i class="icon-cash-dollar"></i>
                                 <h4>$2.46M</h4>
-                                <p>Annual gross merchandise sales</p>
+                                <p>Ventas brutas anuales de mercancías</p>
                             </div>
                         </div>
                     </div>
@@ -66,14 +66,14 @@
         <div class="ps-our-team">
             <div class="container">
                 <div class="ps-section__header">
-                    <h3>Meet Our Leaders</h3>
+                    <h3>Conoce a nuestros lideres</h3>
                 </div>
                 <div class="ps-section__content">
                     <figure>
                         <div class="ps-block--ourteam"><img src="img/users/our-team/1.jpg" alt="">
                             <div class="ps-block__content">
                                 <h4>Robert Downey Jr</h4>
-                                <p>CEO Fouder</p>
+                                <p>CEO Fundador</p>
                                 <ul>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -85,7 +85,7 @@
                     <figure>
                         <div class="ps-block--ourteam"><img src="img/users/our-team/2.jpg" alt="">
                             <div class="ps-block__content">
-                                <h4>Robert Downey Jr</h4>
+                                <h4>Jhonny Deep</h4>
                                 <p>CEO Fouder</p>
                                 <ul>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -98,7 +98,7 @@
                     <figure>
                         <div class="ps-block--ourteam"><img src="img/users/our-team/3.jpg" alt="">
                             <div class="ps-block__content">
-                                <h4>Robert Downey Jr</h4>
+                                <h4>Jason Mamoa</h4>
                                 <p>CEO Fouder</p>
                                 <ul>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -111,7 +111,7 @@
                     <figure>
                         <div class="ps-block--ourteam"><img src="img/users/our-team/4.jpg" alt="">
                             <div class="ps-block__content">
-                                <h4>Robert Downey Jr</h4>
+                                <h4>Gustavo Petro</h4>
                                 <p>CEO Fouder</p>
                                 <ul>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -124,7 +124,7 @@
                     <figure>
                         <div class="ps-block--ourteam"><img src="img/users/our-team/5.jpg" alt="">
                             <div class="ps-block__content">
-                                <h4>Robert Downey Jr</h4>
+                                <h4>Elton Jon</h4>
                                 <p>CEO Fouder</p>
                                 <ul>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -137,7 +137,7 @@
                     <figure>
                         <div class="ps-block--ourteam"><img src="img/users/our-team/6.jpg" alt="">
                             <div class="ps-block__content">
-                                <h4>Robert Downey Jr</h4>
+                                <h4>Freddy Mercury</h4>
                                 <p>CEO Fouder</p>
                                 <ul>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -150,7 +150,7 @@
                     <figure>
                         <div class="ps-block--ourteam"><img src="img/users/our-team/7.jpg" alt="">
                             <div class="ps-block__content">
-                                <h4>Robert Downey Jr</h4>
+                                <h4>Charles-Augustin de Coulomb</h4>
                                 <p>CEO Fouder</p>
                                 <ul>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -161,7 +161,7 @@
                         </div>
                     </figure>
                     <figure data-mh="our-team">
-                        <div class="ps-block--ourteam blank"><a href="#">Become <br> member in <br> team</a></div>
+                        <div class="ps-block--ourteam blank"><a href="#">Conviertete <br> en miembro <br> de el equipo</a></div>
                     </figure>
                 </div>
             </div>
@@ -169,8 +169,8 @@
         <div class="ps-about-awards">
             <div class="container">
                 <div class="ps-section__header">
-                    <h4>Awards & Recognition</h4>
-                    <p>Industry leaders and influencers recognize Overstock as one of the most trust worthy retail companies in the U.S., ranking high for both customer and employee satisfaction.</p>
+                    <h4>Premios y reconocimientos</h4>
+                    <p>Los líderes de la industria y personas influyentes reconocen a Overstock como una de las empresas minoristas más confiables de los EE. UU., con una clasificación alta en satisfacción tanto de clientes como de empleados.</p>
                 </div>
                 <div class="ps-section__content">
                     <div class="owl-slider" data-owl-auto="true" data-owl-loop="true" data-owl-speed="15000" data-owl-gap="0" data-owl-nav="false" data-owl-dots="false" data-owl-item="5" data-owl-item-xs="3" data-owl-item-sm="3" data-owl-item-md="3" data-owl-item-lg="4" data-owl-duration="1500" data-owl-mousedrag="off"><a href="#"><img src="img/awards/1.png" alt=""></a><a href="#"><img src="img/awards/2.png" alt=""></a><a href="#"><img src="img/awards/3.png" alt=""></a><a href="#"><img src="img/awards/4.png" alt=""></a><a href="#"><img src="img/awards/5.png" alt=""></a></div>
@@ -181,9 +181,9 @@
 
     <!--=====================================
 	Newletter
-	======================================-->  
+	======================================-->
 
-    <div class="ps-newsletter">
+    {{-- <div class="ps-newsletter">
 
         <div class="container">
 
@@ -193,8 +193,8 @@
 
                     <div class="col-xl-5 col-12 ">
                         <div class="ps-form__left">
-                            <h3>Newsletter</h3>
-                            <p>Subcribe to get information about products and coupons</p>
+                            <h3>Periodico</h3>
+                            <p>Suscríbete para recibir información sobre productos y cupones</p>
                         </div>
                     </div>
 
@@ -205,7 +205,7 @@
                             <div class="form-group--nest">
 
                                 <input class="form-control" type="email" placeholder="Email address">
-                                <button class="ps-btn">Subscribe</button>
+                                <button class="ps-btn">Subscribete</button>
 
                             </div>
 
@@ -219,13 +219,13 @@
 
         </div>
 
-    </div>
+    </div> --}}
 
     <!--=====================================
 	Footer
-	======================================-->  
+	======================================-->
 
-    <footer class="ps-footer">
+    {{-- <footer class="ps-footer">
 
         <div class="container">
 
@@ -233,11 +233,11 @@
 
             	<!--=====================================
 				Contact us
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer widget_contact-us">
 
-                    <h4 class="widget-title">Contact us</h4>
+                    <h4 class="widget-title">Contactanos</h4>
 
                     <div class="widget_content">
 
@@ -260,23 +260,23 @@
 
                 <!--=====================================
 				Quick Links
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
-                    <h4 class="widget-title">Quick links</h4>
+                    <h4 class="widget-title">Links rapidos</h4>
 
                     <ul class="ps-list--link">
 
-                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">Politica</a></li>
 
-                        <li><a href="#">Term &amp; Condition</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
 
-                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Envios</a></li>
 
-                        <li><a href="#">Return</a></li>
+                        <li><a href="#">Devolverte</a></li>
 
-                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="faqs.blade.php">Preguntas frecuentes</a></li>
 
                     </ul>
 
@@ -284,21 +284,21 @@
 
                 <!--=====================================
 				Company
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
-                    <h4 class="widget-title">Company</h4>
+                    <h4 class="widget-title">Compañia</h4>
 
                     <ul class="ps-list--link">
 
-                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="about-us.blade.php">Acerca de nosotros</a></li>
 
-                        <li><a href="#">Affilate</a></li>
+                        <li><a href="#">Afiliados</a></li>
 
-                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Carrera</a></li>
 
-                        <li><a href="contact-us.html">Contact</a></li>
+                        <li><a href="contact-us.html">Contacto</a></li>
 
                     </ul>
 
@@ -306,21 +306,21 @@
 
                 <!--=====================================
 				Bussiness
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
-                    <h4 class="widget-title">Bussiness</h4>
+                    <h4 class="widget-title">Negocio</h4>
 
                     <ul class="ps-list--link">
 
-                        <li><a href="#">Our Press</a></li>
+                        <li><a href="#">Nuestra Prensa</a></li>
 
-                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="checkout.blade.php">Checkout</a></li>
 
-                        <li><a href="my-account.html">My account</a></li>
+                        <li><a href="my-account.blade.php">Mi cuenta</a></li>
 
-                        <li><a href="shop-default.html">Shop</a></li>
+                        <li><a href="shop-default.html">Tienda</a></li>
 
                     </ul>
 
@@ -330,18 +330,18 @@
 
           	<!--=====================================
 			Categories Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__links">
 
                 <p>
-                	<strong>Consumer Electric:</strong>
-                	<a href="#">Air Conditioners</a>
-                	<a href="#">Audios &amp; Theaters</a>
-                	<a href="#">Car Electronics</a>
-                	<a href="#">Office Electronics</a>
-                	<a href="#">TV Televisions</a>
-                	<a href="#">Washing Machines</a>
+                	<strong>Verduras:</strong>
+                	<a href="#">Maiz</a>
+                	<a href="#">Papa</a>
+                	<a href="#">Cebolla</a>
+                	<a href="#">Lechuga</a>
+                	<a href="#">Pimenton</a>
+                	<a href="#">Zanahoria</a>
                 </p>
 
                 <p>
@@ -404,7 +404,7 @@
 
             <!--=====================================
 			CopyRight - Payment method Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__copyright">
 
@@ -439,7 +439,7 @@
 
         </div>
 
-    </footer>
+    </footer> --}}
 
 	<!--=====================================
 	JS PERSONALIZADO

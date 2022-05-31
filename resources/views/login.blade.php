@@ -13,7 +13,7 @@
 
                 <li><a href="index.html">Home</a></li>
 
-                <li>My Account</li>
+                <li>Mi cuenta</li>
 
             </ul>
 
@@ -33,9 +33,9 @@
 
                 <ul class="ps-tab-list">
 
-                    <li class="active"><a href="#sign-in">Login</a></li>
+                    <li class="active"><a href="#sign-in">Iniciar sesion</a></li>
 
-                    <li class=""><a href="#register">Register</a></li>
+                    <li class=""><a href="#register">Registrate</a></li>
 
                 </ul>
 
@@ -49,7 +49,7 @@
 
                         <div class="ps-form__content">
 
-                            <h5>Log In Your Account</h5>
+                            <h5>Inicia sesion en tu cuenta</h5>
 
                             <div class="form-group">
 
@@ -61,7 +61,7 @@
 
                                 <input class="form-control" type="text" placeholder="Password">
 
-                                <a href="">Forgot?</a>
+                                <a href="">¿Olvitaste tu contraseña?</a>
 
                             </div>
 
@@ -71,7 +71,7 @@
 
                                     <input class="form-control" type="checkbox" id="remember-me" name="remember-me">
 
-                                    <label for="remember-me">Rememeber me</label>
+                                    <label for="remember-me">Recuerdame</label>
 
                                 </div>
 
@@ -79,7 +79,7 @@
 
                             <div class="form-group submtit">
 
-                                <button class="ps-btn ps-btn--fullwidth">Login</button>
+                                <button class="ps-btn ps-btn--fullwidth">Inicia sesion</button>
 
                             </div>
 
@@ -87,7 +87,7 @@
 
                         <div class="ps-form__footer">
 
-                            <p>Connect with:</p>
+                            <p>Conectar con:</p>
 
                             <ul class="ps-list--social">
 
@@ -108,7 +108,7 @@
 
                         <div class="ps-form__content">
 
-                            <h5>Register An Account</h5>
+                            <h5>Registrate</h5>
 
                             <div class="form-group">
 
@@ -142,7 +142,7 @@
 
                             <div class="form-group submtit">
 
-                                <button class="ps-btn ps-btn--fullwidth">Register</button>
+                                <button class="ps-btn ps-btn--fullwidth">Registrarse</button>
 
                             </div>
 
@@ -150,7 +150,7 @@
 
                         <div class="ps-form__footer">
 
-                            <p>Connect with:</p>
+                            <p>Conectarse con:</p>
 
                             <ul class="ps-list--social">
 

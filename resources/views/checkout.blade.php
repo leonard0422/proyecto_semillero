@@ -2,14 +2,14 @@
 @section('content')
  <!--=====================================
     Checkout
-    ======================================--> 
+    ======================================-->
     <div class="ps-checkout ps-section--shopping">
 
         <div class="container">
 
             <div class="ps-section__header">
 
-                <h1>Checkout</h1>
+                <h1>Pagar</h1>
 
             </div>
 
@@ -23,11 +23,11 @@
 
                             <div class="ps-form__billing-info">
 
-                                <h3 class="ps-form__heading">Billing Details</h3>
+                                <h3 class="ps-form__heading">Detalles de facturación</h3>
 
                                 <div class="form-group">
 
-                                    <label>First Name<sup>*</sup></label>
+                                    <label>Nombres<sup>*</sup></label>
 
                                     <div class="form-group__content">
 
@@ -39,7 +39,7 @@
 
                                 <div class="form-group">
 
-                                    <label>Last Name<sup>*</sup></label>
+                                    <label>Apellidos<sup>*</sup></label>
 
                                     <div class="form-group__content">
 
@@ -51,7 +51,7 @@
 
                                 <div class="form-group">
 
-                                    <label>Email Address<sup>*</sup></label>
+                                    <label>Email<sup>*</sup></label>
 
                                     <div class="form-group__content">
 
@@ -63,7 +63,7 @@
 
                                 <div class="form-group">
 
-                                    <label>Country<sup>*</sup></label>
+                                    <label>País<sup>*</sup></label>
 
                                     <div class="form-group__content">
 
@@ -75,7 +75,7 @@
 
                                 <div class="form-group">
 
-                                    <label>Phone<sup>*</sup></label>
+                                    <label>Celular<sup>*</sup></label>
 
                                     <div class="form-group__content">
 
@@ -87,7 +87,7 @@
 
                                 <div class="form-group">
 
-                                    <label>Address<sup>*</sup></label>
+                                    <label>Dirección<sup>*</sup></label>
 
                                     <div class="form-group__content">
 
@@ -103,21 +103,21 @@
 
                                         <input class="form-control" type="checkbox" id="create-account">
 
-                                        <label for="create-account">Save address?</label>
+                                        <label for="create-account">Desea guardar la dirección?</label>
 
                                     </div>
 
                                 </div>
 
-                                <h3 class="mt-40"> Addition information</h3>
+                                <h3 class="mt-40"> Información adicional</h3>
 
                                 <div class="form-group">
 
-                                    <label>Order Notes</label>
+                                    <label>Notas del pedido</label>
 
                                     <div class="form-group__content">
 
-                                        <textarea class="form-control" rows="7" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                        <textarea class="form-control" rows="7" placeholder="Notas sobre su pedido, notas especiales para la entrega."></textarea>
 
                                     </div>
 
@@ -131,7 +131,7 @@
 
                             <div class="ps-form__total">
 
-                                <h3 class="ps-form__heading">Your Order</h3>
+                                <h3 class="ps-form__heading">Tu orden</h3>
 
                                 <div class="content">
 
@@ -139,7 +139,7 @@
 
                                         <div class="ps-block__header d-flex justify-content-between">
 
-                                            <p>Product</p>
+                                            <p>Producto</p>
 
                                             <p>Total</p>
 
@@ -154,30 +154,30 @@
                                                     <tr>
 
                                                         <td>
-                                                            <a href="#"> MVMTH Classical Leather Watch In Black ×1</a>
-                                                            <p>Sold By:<strong>YOUNG SHOP</strong></p>
+                                                            <a href="#"> Coco x12 UD ×1</a>
+                                                            <p>Vendido por:<strong>COCOLERIOS S.A</strong></p>
                                                         </td>
 
-                                                        <td class="text-right">$57.99</td>
+                                                        <td class="text-right">$20.500</td>
 
                                                     </tr>
 
                                                     <tr>
 
                                                         <td>
-                                                            <a href="#"> Apple Macbook Retina Display 12” × 1</a>
-                                                            <p>Sold By:<strong>ROBERT’S STORE</strong></p>
+                                                            <a href="#"> Caja de bananos x8 UD × 1</a>
+                                                            <p>Vendido por:<strong>LA PLATANERIA</strong></p>
                                                         </td>
 
-                                                        <td class="text-right">$625.50</td>
+                                                        <td class="text-right">$20.500</td>
 
                                                     </tr>
 
                                                 </tbody>
 
                                             </table>
-                                            
-                                            <h3 class="text-right">Total <span>$683.49</span></h3>
+
+                                            <h3 class="text-right">Total <span>$41.000</span></h3>
 
                                         </div>
 
@@ -191,7 +191,7 @@
 
                                             <input class="form-control" type="radio" id="pay-paypal" name="payment-method" value="paypal" checked>
 
-                                            <label for="pay-paypal">Pay with paypal?  <span><img src="img/payment-method/paypal.jpg" class="w-50"></span></label>
+                                            <label for="pay-paypal">Pagar con paypal?  <span><img src="img/payment-method/paypal.jpg" class="w-50"></span></label>
 
                                         </div>
 
@@ -203,7 +203,7 @@
 
                                             <input class="form-control" type="radio" id="pay-payu" name="payment-method" value="payu">
 
-                                            <label for="pay-payu">Pay with payu? <span><img src="img/payment-method/payu.jpg" class="w-50"></span></label>
+                                            <label for="pay-payu">Pagar con payu? <span><img src="img/payment-method/payu.jpg" class="w-50"></span></label>
 
                                         </div>
 
@@ -215,13 +215,13 @@
 
                                             <input class="form-control" type="radio" id="pay-mercadopago" name="payment-method" value="mercado-pago">
 
-                                            <label for="pay-mercadopago">Pay with Mercado Pago? <span><img src="img/payment-method/mercado_pago.jpg" class="w-50"></span></label>
+                                            <label for="pay-mercadopago">Pagar con Mercado Pago? <span><img src="img/payment-method/mercado_pago.jpg" class="w-50"></span></label>
 
                                         </div>
 
                                     </div>
 
-                                    <a class="ps-btn ps-btn--fullwidth" href="checkout.html">Proceed to checkout</a>
+                                    <a class="ps-btn ps-btn--fullwidth" href="checkout.html">Proceder a pagar</a>
 
                                 </div>
 
@@ -238,14 +238,14 @@
         </div>
 
     </div>
-  
+
     <!--=====================================
 	Footer
 	======================================-->
 
-    <hr>  
+    <hr>
 
-    <footer class="ps-footer">
+    {{-- <footer class="ps-footer">
 
         <div class="container">
 
@@ -253,7 +253,7 @@
 
             	<!--=====================================
 				Contact us
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer widget_contact-us">
 
@@ -280,7 +280,7 @@
 
                 <!--=====================================
 				Quick Links
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -304,7 +304,7 @@
 
                 <!--=====================================
 				Company
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -326,7 +326,7 @@
 
                 <!--=====================================
 				Bussiness
-				======================================-->  
+				======================================-->
 
                 <aside class="widget widget_footer">
 
@@ -350,7 +350,7 @@
 
           	<!--=====================================
 			Categories Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__links">
 
@@ -424,7 +424,7 @@
 
             <!--=====================================
 			CopyRight - Payment method Footer
-			======================================-->  
+			======================================-->
 
             <div class="ps-footer__copyright">
 
@@ -459,7 +459,7 @@
 
         </div>
 
-    </footer>
+    </footer> --}}
 
 	<!--=====================================
 	JS PERSONALIZADO
